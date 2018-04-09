@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, sans serif;
+	box-sizing: border-box;
+}
+
+body {
+	background: #838687;	
+}
+
+.chatbox {
+	width: 500px;
+	min-width: 390px;
+	height: 750px;
+	background: #fff;
+	padding: 25px;
+	margin:20px auto;
+	box-shadow: 0 3px #ccc;
+	border-radius: 5%;
+}
+
+.chatlogs{
+	padding: 10px;
+	width: 100%;
+	height: 600px;
+	background: #eee;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border-radius: 5%;
+
+}
+
+.chatlogs::-webkit-scrollbar{
+	width: 10px;
+
+}
+
+.chatlogs::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background: rgba(0,0,0,.1);
+}
+
+.chat{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+
+.chat .user-photo .one .two{
+	width: 60px;
+	height: 60px;
+	background-color: #ccc;
+	border-radius: 50%;
+
+}
+
+.one{
+	width: 100%;
+	width: 60px;
+	height: 60px;
+	background-color: #ccc;
+	border-radius: 50%;
+}
+
+.two{
+	width: 100%;
+	width: 60px;
+	height: 60px;
+	background-color: #ccc;
+	border-radius: 50%;
+}
+
+.chat .chat-message{
+	width: 70%;
+	padding: 15px;
+	margin: 5px 10px 0;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+
+}
+
+.friend .chat-message{
+
+	background-color: #42c600
+}
+
+.self .chat-message{
+	background-color: #1171f7;
+	order: -1;
+}
+
+.chat-form{
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.chat-form textarea
+{
+	background: #fbfbfb;
+	width: 75%;
+	height: 50px;
+	border: 2px solid #eee;
+	border-radius: 3px;
+	resize: none,
+
+	padding: 10px;
+	font-size: 18px;
+	color: #333;
+}
+
+.chatform textarea:focus{
+	background: #fff;
+
+}
+
+.chatform textarea::-webkit-scrollbar{
+	width: 10px;
+
+}
+
+.chatform textarea::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background: rgba(0,0,0,.1);
+}
+.chat-form button {
+	background: #1ddced;
+	padding: 5px 15px;
+	font-size: 30px;
+	color: #fff;
+	border:none;
+	margin: 0 10px;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 #0eb2c1;
+	cursor: pointer;
+
+	-webkit-transition:background .2s ease;
+	-moz-transition:background .2s ease;
+	-o-transition:background .2s ease;
+
+}
+
+.chat-form button:hover {
+	background: #13c8d9;
+
+}
+
+
+#M1 {
+
+}
+
+#M2 {
+	
+}
+
+
+
+
+
+
+
