@@ -2,11 +2,11 @@
   "characters": {
     "me": {
       "name": "Noémie",
-      "photo": "https://img2.closermag.fr/var/closermag/storage/images/article/lucie-lucas-clem-victime-d-un-burn-out-692829/5566602-1-fre-FR/Lucie-Lucas-Clem-victime-d-un-burn-out_exact1024x768_l.jpg"
+      "photo": "images/noemie.jpg"
     },
     "other": {
-      "name": "Ryan",
-      "photo": "http://jjung.perso.univ-pau.fr/jung.jpg"
+      "name": "Fanny",
+      "photo": "images/fanny.jpg"
     }
   },
   "dialogue": [
