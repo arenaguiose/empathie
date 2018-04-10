@@ -25,15 +25,15 @@ body {
 /* zone message*/
 .chatlogs{
 	padding: 20px;
-	display: block; 
+	display: block;
+	margin: auto; 
 	width: 100%;
 	height: 80%;
 	background: #eee;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	border-radius: 0%;
-	margin-left: auto;
-	margin-right: auto;
+
 
 }
 
