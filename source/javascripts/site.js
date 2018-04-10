@@ -67,6 +67,8 @@ function iChoose() {
   }
 }
 
+
+
 function end() {
   alert('FIN');
 }

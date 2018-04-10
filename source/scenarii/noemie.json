@@ -22,18 +22,41 @@
               "dialogue": {
                 "other": "Suspens.. Détends toi! :*",
                  "me": [ 
-                  {
-                    "name": "réponse 1", 
+                   {
+                    "name": "blabla",
                     "dialogue": {
+                      "other": "blibli",
+                      "me": [
+                        {
+                         "name": "bloblo",
+                         "dialogue": {
+                          "other": "blublu",
+                          "me": [ 
+                            {
+                             "name": "blabla",
+                             "dialogue": {
+                              "other": "blibli",
+                              "me": [
+                               {
+                                "name": "bloblo",
+                               "dialogue": {
+                               "other": "blublu"
+                          
+                         }
+                        }
+                      ]
 
                     }
-                  },
-                  {
-                    "name": "réponse 2", 
-                    "dialogue": {
+                   }
+
+                ]
+                         }
+                        }
+                      ]
 
                     }
-                  }
+                   }
+
                 ]
               }
             }
