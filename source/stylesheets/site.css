@@ -6,7 +6,16 @@
 }
 
 body {
-	background: #838687;	
+	background: #838687;
+}
+
+.messageFin {
+	display: none;
+	background-color: #FF0000;
+	position: fixed;
+	height:100vh;
+	width:100vw;
+	z-index: 1;	
 }
 
 /* interface entière*/

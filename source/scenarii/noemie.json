@@ -9,60 +9,25 @@
       "photo": "http://jjung.perso.univ-pau.fr/jung.jpg"
     }
   },
-  "dialogue": {
-    "other": "C\"est déjà plus intime..",
-    "me": [
-      {
-        "name": "C\"est qui? ",
-        "dialogue": {
-          "other": "Ryan!",
-          "me": [
-            {
-              "name": "Comment tu l\"as eu ? ",
-              "dialogue": {
-                "other": "Suspens.. Détends toi! :*",
-                 "me": [ 
-                   {
-                    "name": "blabla",
-                     "dialogue": {
-                      "other": "blibli",
-                      "me": [
-                        {
-                         "name": "bloblo",
-                         "dialogue": {
-                          "other": "blublu",
-                          "me": [ 
-                            {
-                             "name": "blabbbla",
-                             "dialogue": {
-                              "other": "blibli",
-                              "me": [
-                               {
-                                "name": "bloblo",
-                                "dialogue": {
-                                "other": "blublu"
-                          
-                         }
-                        }
-                      ]
-
-                    }
-                   }
-
-                ]
-                         }
-                        }
-                      ]
-
-                    }
-                   }
-
-                ]
-              }
-            }
+  "dialogue": [
+    { "other": "C'est déjà plus intime..", "delay": 0 },
+    { "me": "C'est qui?", "delay": 1000 },
+    { "other": "Ryan!", "delay": 2000 },
+    { "other": ":)", "delay": 500 },
+    { "me": "Comment tu l'as eu ?", "delay": 500 },
+    { "other": "Suspens.. Détends toi! :*", "delay": 500 },
+    { "me": [
+        { 
+          "text": "choix 1",
+          "dialogue": [
+            { "other": "ok", "delay": 1000 }
           ]
+        },
+        {
+          "text": "choix 2",
+          "dialogue": []
         }
-      }
-    ]
-  }
+      ]
+    }
+  ]
 }
