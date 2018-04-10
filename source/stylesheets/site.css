@@ -10,12 +10,24 @@ body {
 }
 
 .messageFin {
-	display: none;
-	background-color: #FF0000;
+	display: none; 
 	position: fixed;
-	height:100vh;
-	width:100vw;
+	width: 100vw;
+	max-width: 500px;
+	height: 100vh;
+	max-height: 850px;
+	background: black;
+	padding-top: 0px;
+	top: 50%; left: 50%; 
+	transform: translate(-50%, -50%);
+	box-shadow: 0 3px #D0D0D0;
 	z-index: 2;	
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.messageFin img {
+	max-width: 100%;
 }
 
 /* interface entière*/
