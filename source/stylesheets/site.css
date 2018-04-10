@@ -48,6 +48,7 @@ body {
 
 .chatlogs::-webkit-scrollbar{
 	width: 10px;
+	display: none;
 
 }
 
@@ -58,7 +59,7 @@ body {
 
 .chat{
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	align-items: flex-start;
 	margin-bottom: 10px;
 }
@@ -99,7 +100,8 @@ body {
 
 .friend .chat-message{
 
-	background-color: #e5e5ea
+	background-color: #e5e5ea;
+	color:#838687;
 }
 
 .self .chat-message{
