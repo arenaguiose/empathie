@@ -15,7 +15,7 @@ body {
 	position: fixed;
 	height:100vh;
 	width:100vw;
-	z-index: 1;	
+	z-index: 2;	
 }
 
 /* interface entière*/
@@ -24,12 +24,22 @@ body {
 	max-width: 500px;
 	height: 100vh;
 	max-height: 850px;
-	background: #D0D0D0;
+	background: #A9A9A9;
 	padding-top: 0px;
 	margin: 0px auto 0px auto;
 	box-shadow: 0 3px #D0D0D0;
 	border-radius: 0%;
 
+}
+
+/*header*/
+.header {
+	position: fixed;
+	z-index: 1;
+	width:100vw;
+	max-width: 500px;
+	height: 12%;
+	background-color: #543FD4;
 }
 /* zone message*/
 .chatlogs{
@@ -62,7 +72,13 @@ body {
 	flex-flow: row nowrap;
 	align-items: flex-start;
 	margin-bottom: 10px;
+
 }
+
+.chat .self{
+	align-items: flex-end;
+}
+
 
 .chat .user-photo .one .two{
 	width: 60px;
@@ -110,15 +126,29 @@ body {
 	background-color: #1acca9;
 	order: -1;
 }
+
+
+
 /* blockblanc*/
-.chat-form{
-	margin-top: 20px;
+.chatform{
 	display: flex;
-	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	height: 20%;
 }
 
+.option{
+	padding: 18px;
+	background-color: #A9A9A9;
+	text-align: center;
+	color: #FFFFFF;
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 100%;
+	border-bottom: 1px solid #FFFFFF;
 
+}
 
 
 
