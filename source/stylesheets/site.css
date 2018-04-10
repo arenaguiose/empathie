@@ -39,7 +39,8 @@ body {
 	width:100vw;
 	max-width: 500px;
 	height: 12%;
-	background-color: #543FD4;
+	background-color: #EFEFEF;
+    opacity: .97;
 }
 /* zone message*/
 .chatlogs{
@@ -119,7 +120,7 @@ body {
 .friend .chat-message{
 
 	background-color: #e5e5ea;
-	color:#838687;
+	color:#303030;
 }
 
 .self .chat-message{
