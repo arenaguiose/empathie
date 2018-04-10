@@ -1,53 +1,26 @@
-var data = {
-  characters: {
-    me: {
-      name: 'Noémie',
-      photo: 'https://img2.closermag.fr/var/closermag/storage/images/article/lucie-lucas-clem-victime-d-un-burn-out-692829/5566602-1-fre-FR/Lucie-Lucas-Clem-victime-d-un-burn-out_exact1024x768_l.jpg'
-    },
-    other: {
-      name: 'Ryan',
-      photo: 'http://jjung.perso.univ-pau.fr/jung.jpg'
-    }
-  },
-  dialogue: {
-    other: 'C\'est déjà plus intime..',
-    me: [
-      {
-        name: 'C\'est qui? ',
-        dialogue: {
-          other: 'Ryan!',
-          me: [
-            {
-              name: 'Comment tu l\'as eu ? ',
-              dialogue: {
-                other: 'Suspens.. Détends toi! :*',
-                 me: [ 
-                  {
-                    name: 'réponse 1', 
-                    dialogue: {
+// Initialize
 
-                    }
-                  },
-                  {
-                    name: 'réponse 2', 
-                    dialogue: {
-
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
-    ]
-  }
-}
-
-
-var dialogue = data.dialogue;
+var data = null;
+var dialogue = null;
 var answer = null;
 var delay = 500;
+
+// Start
+
+$(function() {
+  $.getJSON( 'scenarii/noemie.json', function( dataLoaded ) {
+    data = dataLoaded;
+    dialogue = data.dialogue
+    setTitle();
+    otherTalks();
+  });
+});
+
+// Functions
+
+function setTitle() {
+  $('.title').html(data.characters.other.name);
+}
 
 function otherTalks() {
   setTimeout(function() {
@@ -97,8 +70,3 @@ function iChoose() {
 function end() {
   alert('FIN');
 }
-
-$(function() {
-  $('.title').html(data.characters.other.name);
-  otherTalks();
-});
