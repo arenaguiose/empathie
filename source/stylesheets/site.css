@@ -74,18 +74,20 @@ body {
 
 .one{
 	width: 100%;
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	background-color: #ccc;
 	border-radius: 50%;
+	margin-top: 8px;
 }
 
 .two{
 	width: 100%;
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	background-color: #ccc;
 	border-radius: 50%;
+	margin-top: 8px;
 }
 
 .chat .chat-message{
