@@ -24,7 +24,7 @@
                  "me": [ 
                    {
                     "name": "blabla",
-                    "dialogue": {
+                     "dialogue": {
                       "other": "blibli",
                       "me": [
                         {
@@ -39,8 +39,8 @@
                               "me": [
                                {
                                 "name": "bloblo",
-                               "dialogue": {
-                               "other": "blublu"
+                                "dialogue": {
+                                "other": "blublu"
                           
                          }
                         }
