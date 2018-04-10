@@ -13,15 +13,15 @@ $(function() {
   $.getJSON( 'scenarii/noemie.json', function( dataLoaded ) {
     data = dataLoaded;
     currentDialogue = data.dialogue
-    setTitle();
+    setHeader();
     showCurrentMessage();
   });
 });
 
 // Functions
 
-function setTitle() {
-  $('.title').html(data.characters.other.name);
+function setHeader() {
+  $('.header').append('<div class="iconesHeader"> <img src = "images/arrow.png" class="icones"><img src="' + data.characters.other.photo +'" class="one"><img src = "images/info.png" class="icones"></div><div class="nomHeader">' + data.characters.other.name + '</div>');
 }
 
 function showCurrentMessage() {

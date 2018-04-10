@@ -10,21 +10,37 @@
     }
   },
   "dialogue": [
-    { "other": "C'est déjà plus intime..", "delay": 0 },
-    { "me": "C'est qui?", "delay": 1000 },
-    { "other": "Ryan!", "delay": 2000 },
-    { "other": ":)", "delay": 500 },
-    { "me": "Comment tu l'as eu ?", "delay": 500 },
-    { "other": "Suspens.. Détends toi! :*", "delay": 500 },
+    { "other": "Est ce que tout va bien?", "delay": 0 },
+    { "me": "Oui super, tu as bien dormi? :)", "delay": 1000 },
+    { "other": "Non mais est ce que toi tu vas bien?", "delay": 2000 },
+    { "me": "Oui ça va! ", "delay": 500 },
+    { "me": "Pourquoi tu demandes ça?", "delay": 500 },
+    { "other": "J’ai entendu des trucs sur toi  :*", "delay": 500 },
+    { "other": "hier soir", "delay": 500 },
+    { "other": "après les cours", "delay": 500 },
+    { "me": "??", "delay": 500 },
+    { "other": "Il y a des rumeurs qui tournent sur toi", "delay": 500 },
+    { "me": "Quelles rumeurs?", "delay": 500 },
+    { "me": "De quoi tu parles?", "delay": 500 },
+    { "other": "Noémie c’est grave", "delay": 500 },
+    { "other": "j’ai vu une photo de toi", "delay": 500 },
+    { "me": "quelle photo????", "delay": 500 },
+    { "other": "c’est chaud", "delay": 500 },
+    { "me": " …", "delay": 500 },
+    { "other": "toute la classe l’a vue", "delay": 500 },
+    { "other": "On te reconnait", "delay": 500 },
+    { "other": "Dis quelque chose", "delay": 500 },
+    { "other": "Pourquoi tu réponds pas???", "delay": 500 },
+    { "me": "Vraiment toute la classe?", "delay": 500 },
     { "me": [
-        { 
-          "text": "choix 1",
+        {
+          "text": "On va trouver une solution",
           "dialogue": [
             { "other": "ok", "delay": 1000 }
           ]
         },
         {
-          "text": "choix 2",
+          "text": "Tu te rends compte de ce que tu as fait ?",
           "dialogue": []
         }
       ]

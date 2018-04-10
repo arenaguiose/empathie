@@ -32,16 +32,8 @@ body {
 
 }
 
-/*header*/
-.header {
-	position: fixed;
-	z-index: 1;
-	width:100vw;
-	max-width: 500px;
-	height: 12%;
-	background-color: #EFEFEF;
-    opacity: .97;
-}
+
+
 /* zone message*/
 .chatlogs{
 	padding: 20px;
@@ -152,7 +144,38 @@ body {
 }
 
 
+/*header*/
+.header {
+	position: fixed;
+	z-index: 1;
+	width:100vw;
+	max-width: 500px;
+	height: 12%;
+	background-color: #EFEFEF;
+    opacity: .975;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconesHeader {
+	height: 70%;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+}
+.iconesHeader img {
+	height: 7vh;
+	width: 7vh;
+	margin-top: 0px;
+}
 
+
+.nomHeader {
+	height: 30%;
+	text-align: center;
+}
 
 
 
