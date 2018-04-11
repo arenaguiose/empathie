@@ -10,10 +10,10 @@
     }
   },
   "dialogue": [
-    { "other": "C'est déjà plus intime..", "delay": 0 },
+    { "other": "C'est déjà plus intime..", "delay": 0, "ellipsis": 0 },
     { "me": "C'est qui?", "delay": 1000 },
-    { "other": "Ryan!", "delay": 2000 },
-    { "other": ":)", "delay": 500 },
+    { "other": "Ryan!", "delay": 2000, "ellipsis": 300 },
+    { "other": ":)", "delay": 500, "ellipsis": 1000 },
     { "me": "Comment tu l'as eu ?", "delay": 500 },
     { "other": "Suspens.. Détends toi! :*", "delay": 500 },
     { "me": [

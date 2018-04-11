@@ -6,6 +6,7 @@ var currentMessage = null;
 var answerChosen = null;
 var delay = 0;
 var dialogueIndex = 0;
+var dialogueEllipsis = 0;
 
 // Start
 
@@ -54,8 +55,19 @@ function planNextMessage() {
 
 function otherTalks(){
   console.log("otherTalks");
-  $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message">' + currentMessage.other + '</p></div>');  
+  dialogueEllipsis = currentMessage.ellipsis;
+  if (dialogueEllipsis > 0) {
+    $('.chatlogs').append('<div class ="ellipsis"><div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><div class="chat-message"><p class="loading">...</p></div></div></div>');
+    setTimeout(function() { 
+      $('.ellipsis').hide();
+      $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message">' + currentMessage.other + '</p></div>');  
   planNextMessage();
+    }, dialogueEllipsis);
+  }
+   else { 
+    $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message">' + currentMessage.other + '</p></div>');  
+  planNextMessage();
+}
 }
 
 function iTalk() {

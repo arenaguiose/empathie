@@ -12,10 +12,10 @@
   "dialogue": [
     { "other": "Est ce que tout va bien?", "delay": 0 },
     { "me": "Oui super, tu as bien dormi? :)", "delay": 1000 },
-    { "other": "Non mais est ce que toi tu vas bien?", "delay": 2000 },
+    { "other": "Non mais est ce que toi tu vas bien?", "delay": 2000, "ellipsis": 1000 },
     { "me": "Oui ça va! ", "delay": 500 },
     { "me": "Pourquoi tu demandes ça?", "delay": 500 },
-    { "other": "J’ai entendu des trucs sur toi  :*", "delay": 500 },
+    { "other": "J’ai entendu des trucs sur toi  :*", "delay": 500, "ellipsis": 1000 },
     { "other": "hier soir", "delay": 500 },
     { "other": "après les cours", "delay": 500 },
     { "me": "??", "delay": 500 },
