@@ -1,47 +1,379 @@
 {
   "characters": {
     "me": {
-      "name": "Noémie",
-      "photo": "images/noemie.jpg"
-    },
-    "other": {
       "name": "Fanny",
       "photo": "images/fanny.jpg"
+    },
+    "other": {
+      "name": "Noémie",
+      "photo": "images/noemie.jpg"
     }
   },
+
+
   "dialogue": [
-    { "other": "Est ce que tout va bien?", "delay": 0 },
-    { "me": "Oui super, tu as bien dormi? :)", "delay": 1000 },
-    { "other": "Non mais est ce que toi tu vas bien?", "delay": 2000, "ellipsis": 1000 },
-    { "me": "Oui ça va! ", "delay": 500 },
-    { "me": "Pourquoi tu demandes ça?", "delay": 500 },
-    { "other": "J’ai entendu des trucs sur toi  :*", "delay": 500, "ellipsis": 1000 },
-    { "other": "hier soir", "delay": 500 },
-    { "other": "après les cours", "delay": 500 },
-    { "me": "??", "delay": 500 },
-    { "other": "Il y a des rumeurs qui tournent sur toi", "delay": 500 },
-    { "me": "Quelles rumeurs?", "delay": 500 },
-    { "me": "De quoi tu parles?", "delay": 500 },
-    { "other": "Noémie c’est grave", "delay": 500 },
-    { "other": "j’ai vu une photo de toi", "delay": 500 },
-    { "me": "quelle photo????", "delay": 500 },
-    { "other": "c’est chaud", "delay": 500 },
-    { "me": " …", "delay": 500 },
-    { "other": "toute la classe l’a vue", "delay": 500 },
-    { "other": "On te reconnait", "delay": 500 },
-    { "other": "Dis quelque chose", "delay": 500 },
-    { "other": "Pourquoi tu réponds pas???", "delay": 500 },
-    { "me": "Vraiment toute la classe?", "delay": 500 },
+    { "me": "Est ce que tout va bien?", "delay": 0 },
+    { "other": "Oui super, tu as bien dormi? :)", "delay": 10 },
+    { "me": "Non mais est ce que toi tu vas bien?", "delay": 20 },
+    { "other": "Oui ça va! ", "delay": 35 },
+    { "other": "Pourquoi tu demandes ça?", "delay": 50 },
+    { "me": "J’ai entendu des trucs sur toi ", "delay": 20 },
+    { "me": "hier soir", "delay": 10 },
+    { "me": "après les cours", "delay": 10 },
+    { "other": "??", "delay": 10 },
+    { "me": "Il y a des rumeurs qui tournent sur toi", "delay": 30 },
+    { "other": "Quelles rumeurs?", "delay": 20 },
+    { "other": "De quoi tu parles?", "delay": 15 },
+    { "me": "Noémie c’est grave", "delay": 30 },
+    { "me": "j’ai vu une photo de toi", "delay": 60 },
+    { "other": "quelle photo????", "delay": 20 },
+    { "me": "c’est chaud", "delay": 30 },
+    { "other": " …", "delay": 60 },
+    { "me": "toute la classe l’a vue", "delay": 30 },
+    { "me": "On te reconnait", "delay": 30 },
+    { "me": "Dis quelque chose", "delay": 40 },
+    { "me": "Pourquoi tu réponds pas???", "delay": 50 },
+    { "other": "Vraiment toute la classe?", "delay": 70 },
     { "me": [
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         {
-          "text": "On va trouver une solution",
-          "dialogue": [
-            { "other": "ok", "delay": 1000 }
+            "text": "Explique-moi Noémie",
+            "dialogue": [
+              { "me": "Explique moi ce qui s’est passé", "delay": 10 },
+              { "me": "On va trouver une solution", "delay": 10 },
+              { "other": "VRAIMENT toute la classe ??", "delay": 10 },
+              { "me": "je suis désolée", "delay": 10 },
+              { "me": "ça a commencé à tourner sur les téléphones, c’est Vincent qui me l’a envoyé", "delay": 10 },
+              { "me": "au départ j’étais contente mais… disons qu’il ne m’intéresse plus du tout maintenant", "delay": 10 },
+              { "other": "comment il a eu ça", "delay": 10 },
+              { "me": "On n’en sait rien", "delay": 10 },
+              { "me": "S’il te plaît dis-moi ce qu’il s’est passé", "delay": 10 },
+
+              { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
+              { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
+              { "other": "oui c’est pas celui que je croyais", "delay": 10 },
+              { "other": "je suis trop conne", "delay": 10 },
+              { "other": "j’aurais jamais du lui envoyer", "delay": 10 },
+              { "other": "je m’en veux ", "delay": 10 },
+              { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 10 },
+              { "other": "il était super sympa avec moi", "delay": 10 },
+              { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 100 },
+              { "me": "Je sais", "delay": 10 },
+              { "me": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 10 },
+              { "other": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
+              { "other": "il voulait m’avoir avec lui", "delay": 10 },
+              { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
+              { "other": "mais je pensais pas qu’il ferait ça", "delay": 10 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "mais noémie..", "delay": 10 },
+                  { "me": "tu te rends compte de ce que tu as fait?", "delay": 10 },
+                  { "me": "des répercussions que ça va avoir sur ta vie?", "delay": 10 },
+                  { "other": "arrête de me dire ça je sais!!", "delay": 10 },
+                  { "other": "je sais que j’ai été idiote, et naïve, et que ses compliments me sont montés à la tête, je le sais tout ça", "delay": 10 },
+                  { "me": "excuse-moi je voulais pas sous-entendre ça. Explique-moi juste comment ça s’est passé", "delay": 10 },
+                  { "other": "ça faisait des jours qu’il me demandait de me voir", "delay": 10 },
+                  { "other": "je me sentais coupable de refuser tout le temps", "delay": 10 },
+                  { "other": "et puis je pensais pas qu’il la screenerait", "delay": 10 },
+                  { "other": "le pire, c’est que depuis que je lui ai envoyé ça fait qu’empirer", "delay": 10 },
+                  { "me": "mais noémie..", "delay": 10 },
+
+                  { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
+                  { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
+                  { "other": "oui c’est pas celui que je croyais", "delay": 10 },
+                  { "other": "je suis trop conne", "delay": 10 },
+                  { "other": "j’aurais jamais du lui envoyer", "delay": 10 },
+                  { "other": "je m’en veux ", "delay": 10 },
+                  { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 10 },
+                  { "other": "il était super sympa avec moi", "delay": 10 },
+                  { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 10 },
+                  { "me": "Je sais", "delay": 10 },
+                  { "other": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 10 },
+                  { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
+                  { "other": "il voulait m’avoir avec lui", "delay": 10 },
+                  { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
+                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+                ]
+              },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "me": "Oui Noémie, vraiment toute la classe?", "delay": 10 },
+                  { "me": "Théo a fait beaucoup de bruit là-dessus après que ça ait commencé à circuler hier soir...", "delay": 10 },
+                  { "me": "Qu’est-ce qu’il s’est passé ??", "delay": 10 },
+                  { "other": "qu’est ce que tu veux que je te dise", "delay": 10 },
+                  { "other": "jai honte", "delay": 10 },
+                  { "other": "je sais pas qoi faire", "delay": 10 },
+                  { "other": "la situation m’a échappé", "delay": 10 },
+                  { "me": "T’es nue sur la photo, comment ça a pu t’échapper?", "delay": 10 },
+                  { "other": "je sais j’ai trop honte je lui ai dit de l’effacer", "delay": 10 },
+                  { "me": "mais de quoi tu parles je comprends rien", "delay": 10 },
+
+                  { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
+                  { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
+                  { "other": "oui c’est pas celui que je croyais", "delay": 10 },
+                  { "other": "je suis trop conne", "delay": 10 },
+                  { "other": "j’aurais jamais du lui envoyer", "delay": 10 },
+                  { "other": "je m’en veux ", "delay": 10 },
+                  { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 10 },
+                  { "other": "il était super sympa avec moi", "delay": 10 },
+                  { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 10 },
+                  { "me": "Je sais", "delay": 10 },
+                  { "other": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 10 },
+                  { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
+                  { "other": "il voulait m’avoir avec lui", "delay": 10 },
+                  { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
+                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+                ]
+              }
+            ]
+          }
+
           ]
         },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         {
-          "text": "Tu te rends compte de ce que tu as fait ?",
-          "dialogue": []
+          "text": "Oui, ça a fait du bruit",
+          "dialogue": [
+            { "other": "Oui Noémie, vraiment toute la classe", "delay": 1000 },
+            { "other": "Théo a fait beaucoup de bruit là-dessus après que ça ait commencé à circuler hier soir...", "delay": 1000 },
+            { "other": "Qu’est-ce qu’il s’est passé ??", "delay": 1000 },
+            { "me": "qu’est ce que tu veux que je te dise", "delay": 1000 },
+            { "me": "jai honte", "delay": 1000 },
+            { "me": "je sais pas qoi faire", "delay": 1000 },
+            { "me": "la situation m’a échappé", "delay": 1000 },
+            { "other": "T’es nue sur la photo, comment ça a pu t’échapper?", "delay": 1000 },
+            { "me": "je sais j’ai trop honte je lui ai dit de l’effacer", "delay": 1000 },
+            { "other": "mais de quoi tu parles je comprends rien", "delay": 1000 },
+
+            { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 1000 },
+            { "me": "Le gars avec qui tu parles sur Snap?", "delay": 1000 },
+            { "other": "oui c’est pas celui que je croyais", "delay": 1000 },
+            { "other": "je suis trop conne", "delay": 1000 },
+            { "other": "j’aurais jamais du lui envoyer", "delay": 1000 },
+            { "other": "je m’en veux ", "delay": 1000 },
+            { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 1000 },
+            { "other": "il était super sympa avec moi", "delay": 1000 },
+            { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 1000 },
+            { "me": "Je sais", "delay": 1000 },
+            { "me": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 1000 },
+            { "other": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 1000 },
+            { "other": "il voulait m’avoir avec lui", "delay": 1000 },
+            { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 1000 },
+            { "other": "mais je pensais pas qu’il ferait ça", "delay": 1000 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {"me": [
+      {
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "mais noémie..", "delay": 10 },
+                  { "me": "tu te rends compte de ce que tu as fait?", "delay": 10 },
+                  { "me": "des répercussions que ça va avoir sur ta vie?", "delay": 10 },
+                  { "other": "arrête de me dire ça je sais!!", "delay": 10 },
+                  { "other": "je sais que j’ai été idiote, et naïve, et que ses compliments me sont montés à la tête, je le sais tout ça", "delay": 10 },
+                  { "me": "excuse-moi je voulais pas sous-entendre ça. Explique-moi juste comment ça s’est passé", "delay": 10 },
+                  { "other": "ça faisait des jours qu’il me demandait de me voir", "delay": 10 },
+                  { "other": "je me sentais coupable de refuser tout le temps", "delay": 10 },
+                  { "other": "et puis je pensais pas qu’il la screenerait", "delay": 10 },
+                  { "other": "le pire, c’est que depuis que je lui ai envoyé ça fait qu’empirer", "delay": 10 },
+                  { "me": "mais noémie..", "delay": 10 },
+
+                  { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
+                  { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
+                  { "other": "oui c’est pas celui que je croyais", "delay": 10 },
+                  { "other": "je suis trop conne", "delay": 10 },
+                  { "other": "j’aurais jamais du lui envoyer", "delay": 10 },
+                  { "other": "je m’en veux ", "delay": 10 },
+                  { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 10 },
+                  { "other": "il était super sympa avec moi", "delay": 10 },
+                  { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 10 },
+                  { "me": "Je sais", "delay": 10 },
+                  { "other": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 10 },
+                  { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
+                  { "other": "il voulait m’avoir avec lui", "delay": 10 },
+                  { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
+                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+
+
+                ]
+              },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "me": "Oui Noémie, vraiment toute la classe?", "delay": 10 },
+                  { "me": "Théo a fait beaucoup de bruit là-dessus après que ça ait commencé à circuler hier soir...", "delay": 10 },
+                  { "me": "Qu’est-ce qu’il s’est passé ??", "delay": 10 },
+                  { "other": "qu’est ce que tu veux que je te dise", "delay": 10 },
+                  { "other": "jai honte", "delay": 10 },
+                  { "other": "je sais pas qoi faire", "delay": 10 },
+                  { "other": "la situation m’a échappé", "delay": 10 },
+                  { "me": "T’es nue sur la photo, comment ça a pu t’échapper?", "delay": 10 },
+                  { "other": "je sais j’ai trop honte je lui ai dit de l’effacer", "delay": 10 },
+                  { "me": "mais de quoi tu parles je comprends rien", "delay": 10 },
+
+                  { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
+                  { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
+                  { "other": "oui c’est pas celui que je croyais", "delay": 10 },
+                  { "other": "je suis trop conne", "delay": 10 },
+                  { "other": "j’aurais jamais du lui envoyer", "delay": 10 },
+                  { "other": "je m’en veux ", "delay": 10 },
+                  { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 10 },
+                  { "other": "il était super sympa avec moi", "delay": 10 },
+                  { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 10 },
+                  { "me": "Je sais", "delay": 10 },
+                  { "other": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 10 },
+                  { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
+                  { "other": "il voulait m’avoir avec lui", "delay": 10 },
+                  { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
+                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+                ]
+              }
+            ]
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          ]
         }
       ]
     }
