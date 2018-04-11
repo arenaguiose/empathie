@@ -77,12 +77,10 @@ body {
 	flex-flow: row nowrap;
 	align-items: flex-start;
 	margin-bottom: 10px;
+	justify-content: center;
 
 }
 
-.chat .self{
-	align-items: flex-end;
-}
 
 
 .chat .user-photo .one .two{
@@ -132,6 +130,9 @@ body {
 	order: -1;
 }
 
+.chat .self{
+	align-items: flex-end;
+}
 
 
 /* blockblanc*/
