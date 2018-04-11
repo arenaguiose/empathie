@@ -22,19 +22,29 @@ $(function() {
 // Functions
 
 function setHeader() {
-  $('.header').append('<div class="iconesHeader"> <img src = "images/arrow.png" class="icones"><img src="' + data.characters.other.photo +'" class="one"><img src = "images/info.png" class="icones"></div><div class="nomHeader">' + data.characters.other.name + '</div>');
+  $('.header').append('<div class="iconesHeader"> <img src = "images/arrow.png" class="icones"><img src="' + data.characters.other.photo +'"  id="head" class="one" id="head"><img src = "images/info.png" class="icones"></div><div class="nomHeader">' + data.characters.other.name + '</div>');
 }
 
 function showCurrentMessage() {
   console.log("showCurrentMessage");
   currentMessage = currentDialogue[dialogueIndex];
   delay = currentMessage.delay;
-  setTimeout(function() {
-    if (currentMessage.other) {
-      otherTalks();
-    } else {
+  
+/*  if (currentMessage.other) {
+    setTimeout(function() {
+       otherTalks();
+     },delay)
+  } else {
       iTalk();
     }
+  autoScroll();
+}*/
+  setTimeout(function() {
+  if (currentMessage.other) {
+    otherTalks();
+  } else {
+   iTalk();
+  }
     autoScroll();
   }, delay);
 }

@@ -173,6 +173,7 @@ body {
 	background-color: #EFEFEF;
     opacity: .975;
     padding-top: 10px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,19 +183,28 @@ body {
 	height: 70%;
 	width: 90%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
 }
+#head {
+	min-height: 7.5vh;
+	min-width: 7.5vh; 
+}
+
 .iconesHeader img {
-	height: 7vh;
-	width: 7vh;
+	max-height: 5vh;
+	width: 5vh;
 	margin-top: 0px;
 }
 
-
 .nomHeader {
 	height: 30%;
+	padding-top: 3px;
 	text-align: center;
+	font-size: 0.8em;
+	color: #5A5E6B;
 }
+
 
 
 @keyframes blink {
