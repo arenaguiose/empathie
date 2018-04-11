@@ -111,7 +111,7 @@
                   { "other": "je me sentais coupable de refuser tout le temps", "delay": 10 },
                   { "other": "et puis je pensais pas qu’il la screenerait", "delay": 10 },
                   { "other": "le pire, c’est que depuis que je lui ai envoyé ça fait qu’empirer", "delay": 10 },
-                  { "me": "mais noémie..", "delay": 10 },
+                  { "me": "comment ça ?", "delay": 10 },
 
                   { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
                   { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
@@ -127,9 +127,78 @@
                   { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
                   { "other": "il voulait m’avoir avec lui", "delay": 10 },
                   { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
-                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 },
+
+
+                  {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
                 ]
               },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              },
+
 
 
 
@@ -159,21 +228,89 @@
                   { "other": "je sais j’ai trop honte je lui ai dit de l’effacer", "delay": 10 },
                   { "me": "mais de quoi tu parles je comprends rien", "delay": 10 },
 
-                  { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
-                  { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
-                  { "other": "oui c’est pas celui que je croyais", "delay": 10 },
-                  { "other": "je suis trop conne", "delay": 10 },
-                  { "other": "j’aurais jamais du lui envoyer", "delay": 10 },
-                  { "other": "je m’en veux ", "delay": 10 },
-                  { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 10 },
-                  { "other": "il était super sympa avec moi", "delay": 10 },
-                  { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 10 },
-                  { "me": "Je sais", "delay": 10 },
-                  { "other": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 10 },
-                  { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
-                  { "other": "il voulait m’avoir avec lui", "delay": 10 },
-                  { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
-                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+                  { "me": "Je ne t’accuse pas", "delay": 10 },
+                  { "me": "Mais c’est vraiment choquant, en plus vous étiez proches", "delay": 10 },
+                  { "other": "il sait tellement de choses… mes passions, le lycée, mon père aussi", "delay": 10 },
+                  { "other": "ma mère aussi, un peu. même avec papa j’en parle pas, qu’il soit là ou pas", "delay": 10 },
+                  { "other": "j’ai été tellement bête.", "delay": 10 },
+                  { "me": "Ce n’est pas de ta faute tu ne pouvais pas savoir ", "delay": 10 },
+                  { "other": "mais j’aurais dû m’en douter, c’était tellement évident !", "delay": 10 },
+                  { "other": "il s’intéressait à moi, me disait que j’étais mieux que les autres", "delay": 10 },
+                  { "other": "qu’il me comprenait et m’aimait pour qui j’étais", "delay": 10 },
+                  { "other": "il voulait tellement me voir alors… mais pourquoi pourqoui porquoi j’ai fait ça", "delay": 10 },
+                  { "me": "Ne t’en fais pas je vais t’aider", "delay": 10 },
+                  { "me": "qu’est-ce qu’il s’est passé ensuite ?", "delay": 10 },
+                  { "other": "il a juste… changé", "delay": 10 },
+                  { "me": "changé ?", "delay": 10 },
+                  { "me": "enfin peut-être qu’il faisait semblant avant, je ne sais pas je n’en sais rien !", "delay": 10 },
+                  { "me": "mais ça a empiré", "delay": 10 },
+                  { "me": "Attends je te suis plus, qu’est-ce qu’il a fait au juste ?", "delay": 10 },
+                   {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
                 ]
               }
             ]
@@ -287,7 +424,73 @@
                   { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
                   { "other": "il voulait m’avoir avec lui", "delay": 10 },
                   { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
-                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 },
+                   {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
 
 
                 ]
@@ -342,7 +545,74 @@
                   { "me": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
                   { "other": "il voulait m’avoir avec lui", "delay": 10 },
                   { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
-                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 }
+                  { "me": "mais je pensais pas qu’il ferait ça", "delay": 10 },
+                   {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 },
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+
                 ]
               }
             ]
