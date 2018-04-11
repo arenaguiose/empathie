@@ -8,17 +8,16 @@
 body {
 	background: #838687;
 }
+
 .messageDebut {
 	position: fixed;
 	width: 100vw;
 	max-width: 500px;
 	height: 100vh;
-	max-height: 850px;
 	background: black;
 	padding-top: 0px;
 	top: 50%; left: 50%; 
 	transform: translate(-50%, -50%);
-	box-shadow: 0 3px #D0D0D0;
 	z-index: 2;	
 	overflow-x: hidden;
     overflow-y: scroll;
@@ -93,7 +92,7 @@ body {
 
 /* zone message*/
 .chatlogs{
-	padding: 20px;
+	padding: 20px 40px 20px 40px;
 	display: block;
 	margin: auto; 
 	width: 100%;
@@ -121,11 +120,14 @@ body {
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: flex-start;
-	margin-bottom: 10px;
-	justify-content: center;
+	margin-bottom: 0px;
+	justify-content: flex-start;
 
 }
 
+.chat .self{
+	justify-content: flex-end;
+}
 
 
 .chat .user-photo .one .two{
@@ -155,10 +157,9 @@ body {
 }
 
 .chat .chat-message{
-	width: 70%;
+	max-width: 70%;
 	padding: 15px;
 	margin: 10px 10px 0;
-	border-radius: 10px;
 	color: #fff;
 	font-size: 18px;
 
@@ -168,16 +169,17 @@ body {
 
 	background-color: #e5e5ea;
 	color:#303030;
+	border-radius: 25px 25px 25px 6px;
+
 }
 
 .self .chat-message{
 	background-color: #1acca9;
 	order: -1;
+	border-radius: 25px 25px 6px 25px;
+
 }
 
-.chat .self{
-	align-items: flex-end;
-}
 
 
 /* blockblanc*/
