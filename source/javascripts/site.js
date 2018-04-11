@@ -122,3 +122,7 @@ function end() {
   // console.log("end");
   $('.messageFin').show();
 }
+
+function begin() {
+  $('.messageDebut').hide();
+}
