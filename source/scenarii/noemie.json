@@ -2,11 +2,11 @@
   "characters": {
     "me": {
       "name": "Fanny",
-      "photo": "images/fanny.jpg"
+      "photo": "images/fanny.png"
     },
     "other": {
       "name": "Noémie",
-      "photo": "images/noemie.jpg"
+      "photo": "images/noemie.png"
     }
   },
 
