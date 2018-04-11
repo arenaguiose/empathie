@@ -10,14 +10,17 @@ var dialogueEllipsis = 0;
 
 // Start
 
-$(function() {
+
+function begin() {
+  $('.messageDebut').hide();
   $.getJSON( 'scenarii/noemie.json', function( dataLoaded ) {
-    data = dataLoaded;
-    currentDialogue = data.dialogue
-    setHeader();
-    showCurrentMessage();
-  });
-});
+     data = dataLoaded;
+   currentDialogue = data.dialogue
+   setHeader();
+   showCurrentMessage();
+ });
+}
+
 
 // Functions
 
@@ -123,6 +126,3 @@ function end() {
   $('.messageFin').show();
 }
 
-function begin() {
-  $('.messageDebut').hide();
-}
