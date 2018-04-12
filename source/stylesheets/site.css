@@ -116,18 +116,6 @@ body {
 	background: rgba(0,0,0,.1);
 }
 
-.chat{
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: flex-start;
-	margin-bottom: 0px;
-	justify-content: flex-start;
-
-}
-
-.chat .self{
-	justify-content: flex-end;
-}
 
 
 .chat .user-photo .one .two{
@@ -156,29 +144,26 @@ body {
 	margin-top: 8px;
 }
 
-.chat .chat-message{
-	max-width: 70%;
-	padding: 15px;
-	margin: 10px 10px 0;
-	color: #fff;
-	font-size: 18px;
+.message{
+    font-size: 1.2em;
+    width: auto;
+    max-width:300px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.message-in {
+    background-color: #E5E5EA;
+    margin-left: 20px;
 
 }
-
-.friend .chat-message{
-
-	background-color: #e5e5ea;
-	color:#303030;
-	border-radius: 25px 25px 25px 6px;
-
+.message-out{
+    background-color : #22D351;
+    margin-right: 20px;
+    color: #FFFFFF;
 }
 
-.self .chat-message{
-	background-color: #1acca9;
-	order: -1;
-	border-radius: 25px 25px 6px 25px;
 
-}
 
 
 
@@ -253,6 +238,7 @@ body {
 }
 
 
+/*trois petits points */
 
 @keyframes blink {
     /**
@@ -277,6 +263,8 @@ body {
       opacity: .2;
     }
 }
+
+
 
 .saving span {
     /**
