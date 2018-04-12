@@ -59,15 +59,22 @@ body {
 	overflow-x: hidden;
     overflow-y: scroll;
     text-align: center;
+    color: white;
 }
 
 .messageDebut img {
 	max-width: 100%;
 	z-index: 3;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .logos img {
-	max-width: 15%;
+	max-width: 17%;
+}
+
+#ntech {
+	max-width: 12%;
 }
 
 .btnBegin {
