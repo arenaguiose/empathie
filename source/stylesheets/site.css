@@ -66,6 +66,10 @@ body {
 	z-index: 3;
 }
 
+.logos img {
+	max-width: 15%;
+}
+
 .btnBegin {
   border-radius: 13px;
   border-width: 0px;
