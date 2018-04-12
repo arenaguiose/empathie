@@ -67,7 +67,7 @@ function otherTalks(){
   console.log("otherTalks");
   dialogueEllipsis = currentMessage.ellipsis;
   if (dialogueEllipsis > 0) {
-    $('.chatlogs').append('<div class ="ellipsis"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message"><p class="saving"><span>.</span><span>.</span><span>.</span></p></div></div></div>');
+    $('.chatlogs').append('<div class ="ellipsis"><div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><div class="chat-message"><p class="saving"><span>.</span><span>.</span><span>.</span></p></div></div></div>');
     setTimeout(function() { 
       $('.ellipsis').hide();
       $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message">' + currentMessage.other + '</p></div>');  
@@ -75,7 +75,7 @@ function otherTalks(){
     }, dialogueEllipsis);
   }
    else { 
-    $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message>' + currentMessage.other + '</p></div>');  
+    $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message">' + currentMessage.other + '</p></div>');  
   planNextMessage();
 }
 }
