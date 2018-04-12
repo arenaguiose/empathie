@@ -10,11 +10,10 @@ var dialogueEllipsis = 0;
 
 // Start
 
-
 function begin() {
   $('.messageDebut').hide();
   $.getJSON( 'scenarii/noemie.json', function( dataLoaded ) {
-     data = dataLoaded;
+   data = dataLoaded;
    currentDialogue = data.dialogue
    setHeader();
    showCurrentMessage();
@@ -70,15 +69,15 @@ function otherTalks(){
   console.log("otherTalks");
   dialogueEllipsis = currentMessage.ellipsis;
   if (dialogueEllipsis > 0) {
-    $('.chatlogs').append('<div class ="row"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><div class="message message-in pull-left"><p class="saving"><span>.</span><span>.</span><span>.</span></p></div></div></div>');
+    $('.chatlogs').append('<div class ="ellipsis"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message"><p class="saving"><span>.</span><span>.</span><span>.</span></p></div></div></div>');
     setTimeout(function() { 
       $('.ellipsis').hide();
-      $('.chatlogs').append('<div class="row"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><div class="message message-in pull-left">' + currentMessage.other + '</div></div>');  
+      $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message">' + currentMessage.other + '</p></div>');  
   planNextMessage();
     }, dialogueEllipsis);
   }
    else { 
-    $('.chatlogs').append('<div class="row"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><div class="message message-in pull-left>' + currentMessage.other + '</div</div>');  
+    $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message>' + currentMessage.other + '</p></div>');  
   planNextMessage();
 }
 }
@@ -126,3 +125,6 @@ function end() {
   $('.messageFin').show();
 }
 
+function begin() {
+  $('.messageDebut').hide();
+}

@@ -12,28 +12,28 @@
 
 
   "dialogue": [
-    { "me": "Est ce que tout va bien?", "delay": 0, "ellipsis": 3000 },
-    { "other": "Oui super, tu as bien dormi? :)", "delay": 2000 },
-    { "me": "Non mais est ce que toi tu vas bien?", "delay": 3200 },
-    { "other": "Oui ça va! ", "delay": 3000 },
-    { "other": "Pourquoi tu demandes ça?", "delay": 4000 },
-    { "me": "J’ai entendu des trucs sur toi ", "delay": 3000 },
-    { "me": "hier soir", "delay": 2000 },
-    { "me": "après les cours", "delay": 2000 },
-    { "other": "??", "delay": 3000 },
-    { "me": "Il y a des rumeurs qui tournent sur toi", "delay": 3000 },
-    { "other": "Quelles rumeurs?", "delay": 2000 },
-    { "other": "De quoi tu parles?", "delay": 1500 },
-    { "me": "Noémie c’est grave", "delay": 4000 },
-    { "me": "j’ai vu une photo de toi", "delay": 3000 },
-    { "other": "quelle photo????", "delay": 2000 },
-    { "me": "c’est chaud", "delay": 3000 },
-    { "other": " …", "delay": 2000 },
-    { "me": "toute la classe l’a vue", "delay": 3000 },
-    { "me": "On te reconnait", "delay": 3000 },
-    { "me": "Dis quelque chose", "delay": 3000 },
-    { "me": "Pourquoi tu réponds pas???", "delay": 5000 },
-    { "other": "Vraiment toute la classe?", "delay": 7000 },
+    { "me": "Est ce que tout va bien?", "delay": 0 },
+    { "other": "Oui super, tu as bien dormi? :)", "delay": 10 },
+    { "me": "Non mais est ce que toi tu vas bien?", "delay": 20 },
+    { "other": "Oui ça va! ", "delay": 35 },
+    { "other": "Pourquoi tu demandes ça?", "delay": 50 },
+    { "me": "J’ai entendu des trucs sur toi ", "delay": 20 },
+    { "me": "hier soir", "delay": 10 },
+    { "me": "après les cours", "delay": 10 },
+    { "other": "??", "delay": 10 },
+    { "me": "Il y a des rumeurs qui tournent sur toi", "delay": 30 },
+    { "other": "Quelles rumeurs?", "delay": 20 },
+    { "other": "De quoi tu parles?", "delay": 15 },
+    { "me": "Noémie c’est grave", "delay": 30 },
+    { "me": "j’ai vu une photo de toi", "delay": 60 },
+    { "other": "quelle photo????", "delay": 20 },
+    { "me": "c’est chaud", "delay": 30 },
+    { "other": " …", "delay": 60 },
+    { "me": "toute la classe l’a vue", "delay": 30 },
+    { "me": "On te reconnait", "delay": 30 },
+    { "me": "Dis quelque chose", "delay": 40 },
+    { "me": "Pourquoi tu réponds pas???", "delay": 50 },
+    { "other": "Vraiment toute la classe?", "delay": 70 },
     { "me": [
 
 
@@ -57,31 +57,31 @@
         {
             "text": "Explique-moi Noémie",
             "dialogue": [
-              { "me": "Explique moi ce qui s’est passé", "delay": 2000 },
-              { "me": "On va trouver une solution", "delay": 3000 },
-              { "other": "VRAIMENT toute la classe ??", "delay": 4500 },
-              { "me": "je suis désolée", "delay": 4000 },
-              { "me": "ça a commencé à tourner sur les téléphones, c’est Vincent qui me l’a envoyé", "delay": 4000 },
-              { "me": "au départ j’étais contente mais… disons qu’il ne m’intéresse plus du tout maintenant", "delay": 3500 },
-              { "other": "comment il a eu ça", "delay": 3000 },
-              { "me": "On n’en sait rien", "delay": 2000 },
-              { "me": "S’il te plaît dis-moi ce qu’il s’est passé", "delay": 3500 },
+              { "me": "Explique moi ce qui s’est passé", "delay": 10 },
+              { "me": "On va trouver une solution", "delay": 10 },
+              { "other": "VRAIMENT toute la classe ??", "delay": 10 },
+              { "me": "je suis désolée", "delay": 10 },
+              { "me": "ça a commencé à tourner sur les téléphones, c’est Vincent qui me l’a envoyé", "delay": 10 },
+              { "me": "au départ j’étais contente mais… disons qu’il ne m’intéresse plus du tout maintenant", "delay": 10 },
+              { "other": "comment il a eu ça", "delay": 10 },
+              { "me": "On n’en sait rien", "delay": 10 },
+              { "me": "S’il te plaît dis-moi ce qu’il s’est passé", "delay": 10 },
 
-              { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 4000 },
-              { "me": "Le gars avec qui tu parles sur Snap?", "delay": 2000 },
-              { "other": "oui c’est pas celui que je croyais", "delay": 2000 },
-              { "other": "je suis trop conne", "delay": 2500 },
-              { "other": "j’aurais jamais du lui envoyer", "delay": 2400 },
-              { "other": "je m’en veux ", "delay": 1700 },
-              { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 2800 },
-              { "other": "il était super sympa avec moi", "delay": 2000 },
-              { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 2000 },
-              { "me": "Je sais", "delay": 3000 },
-              { "me": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 3000 },
-              { "other": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 2000 },
-              { "other": "il voulait m’avoir avec lui", "delay": 2000 },
-              { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 2000 },
-              { "other": "mais je pensais pas qu’il ferait ça", "delay": 2000 },
+              { "other": "c’est à cause de l’autre mec dont je t’ai parlé, Ryan", "delay": 10 },
+              { "me": "Le gars avec qui tu parles sur Snap?", "delay": 10 },
+              { "other": "oui c’est pas celui que je croyais", "delay": 10 },
+              { "other": "je suis trop conne", "delay": 10 },
+              { "other": "j’aurais jamais du lui envoyer", "delay": 10 },
+              { "other": "je m’en veux ", "delay": 10 },
+              { "me": "pourquoi tu lui as envoyé une photo comme ça?", "delay": 10 },
+              { "other": "il était super sympa avec moi", "delay": 10 },
+              { "other": "en plus il me donnait des conseils sur mes dessins", "delay": 100 },
+              { "me": "Je sais", "delay": 10 },
+              { "me": "Tu m’avais dit que vous vous parliez sur ton blog", "delay": 10 },
+              { "other": "il m’a dit qu’il m’aimait, qu’il me ferait jamais de mal", "delay": 10 },
+              { "other": "il voulait m’avoir avec lui", "delay": 10 },
+              { "other": "il était pas bien, j’ai pas réfléchi, c’était la première fois je te jure !!", "delay": 10 },
+              { "other": "mais je pensais pas qu’il ferait ça", "delay": 10 },
 
 
 
@@ -129,8 +129,6 @@
                   { "me": " Calme toi, on en parle tout à l’heure en cours", "delay": 10 },
                   { "me": "D’accord?", "delay": 10 },
 
-
-
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 10 },
                   { "other": "Pour quoi faire?", "delay": 10 },
                   { "other": "je ne veux voir personne", "delay": 10 },
@@ -141,12 +139,248 @@
                   { "other": "je ne reviendrai pas", "delay": 10 },
                   { "me": "Mais t’as pas donné de nouvelles ce we et t’es pas venue aujourd’hui", "delay": 10 },
                   { "other": "Et alors qu’est ce que ça change?", "delay": 10 },
-                  { "other": " Je suis devenue la risée de l’école", "delay": 10 },
+                  { "other": "Je suis devenue la risée de l’école", "delay": 10 },
                   { "other": "Tu as bien vu les photos de moi qui circulent sur les réseaux, j’ai beau les signaler, elles me poursuivront toujours", "delay": 10 },
-                  { "other": "ça s’effacera jamais", "delay": 10 }
+                  { "other": "ça s’effacera jamais", "delay": 10 },
 
 
+                  {"me": [{
+                "text": "Ça va finir par passer",
+                "dialogue": [
+                  { "me": "Mais non au bout d’un moment ils vont bien se lasser", "delay": 10 },
+                  { "other": "tu parles, tout le monde parle de moi sur facebook", "delay": 10 },
+                  { "other": "je reçois des appels insultants en masqué", "delay": 10 },
+                  { "other": "ils ont même fait des montages sur twitter ", "delay": 10 },
+                  { "other": "j’en dors plus la nuit, je pense qu’à ça", "delay": 10 },
+                  { "me": "arrête de regarder les réseaux et supprime tes comptes", "delay": 10 },
+                  { "other": "non surtout pas, mon père m’a dit qu’il ne fallait pas effacer les preuves si je dois porter plainte", "delay": 10 },
+                  { "other": "le problème c’est que je sursaute à chaque notification", "delay": 10 },
+                  { "me": "enlève les notifications alors", "delay": 10 },
+                  { "other": "même sans ça, je dors pas, je mange pas, je pleure tout le temps", "delay": 10 },
+                  { "other": "j’ai honte, je culpabilise tellement", "delay": 10 },
+                  { "me": "mais ce n’est pas ta faute", "delay": 10 },
+                  { "other": "tu sais très bien que si, personne ne peut m’aider", "delay": 10 },
 
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+
+                  {"me": [{
+                "text": "Lui dire de déménager",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "lui dire de rester",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
+
+
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
+
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "me": "Tu crois pas que ça finira par s’en aller ?", "delay": 10 },
+                  { "other": "on nous rabâche tout le temps que rien ne s’efface sur internet", "delay": 10 },
+                  { "other": "tu te rappelles ta photo avec tes parents à la plage quand t’avais 10 ans, qu’on a retrouvé l’autre fois alors que ta mère était sûre de l’avoir perdue ?", "delay": 10 },
+                  { "me": "Ah euh oui", "delay": 10 },
+                  { "other": "imagine si on retrouve cette chose dans 5ans", "delay": 10 },
+                  { "other": "je sursaute à chaque notification, à chaque appel, j’ai tout le temps la boule au ventre", "delay": 10 },
+                  { "other": "papa veut pas que je coupe les réseaux pour garder les preuves si je porte plainte", "delay": 10 },
+                  { "other": "c’est tellement affreux d’avoir ça quelque part, et de ne rien pouvoir faire", "delay": 10 },
+
+
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+
+                  {"me": [{
+                "text": "Lui conseiller de rester",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
+
+
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
+
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Tu dois déménager",
+                "dialogue": [
+
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+
+                ]
+              }
+            ]
+          }
                 ]
               },
 
@@ -201,8 +435,6 @@
                   { "me": " Calme toi, on en parle tout à l’heure en cours", "delay": 10 },
                   { "me": "D’accord?", "delay": 10 },
 
-
-
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 10 },
                   { "other": "Pour quoi faire?", "delay": 10 },
                   { "other": "je ne veux voir personne", "delay": 10 },
@@ -213,10 +445,245 @@
                   { "other": "je ne reviendrai pas", "delay": 10 },
                   { "me": "Mais t’as pas donné de nouvelles ce we et t’es pas venue aujourd’hui", "delay": 10 },
                   { "other": "Et alors qu’est ce que ça change?", "delay": 10 },
-                  { "other": " Je suis devenue la risée de l’école", "delay": 10 },
+                  { "other": "Je suis devenue la risée de l’école", "delay": 10 },
                   { "other": "Tu as bien vu les photos de moi qui circulent sur les réseaux, j’ai beau les signaler, elles me poursuivront toujours", "delay": 10 },
-                  { "other": "ça s’effacera jamais", "delay": 10 }
+                  { "other": "ça s’effacera jamais", "delay": 10 },
+                   {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "Mais non au bout d’un moment ils vont bien se lasser", "delay": 10 },
+                  { "other": "tu parles, tout le monde parle de moi sur facebook", "delay": 10 },
+                  { "other": "je reçois des appels insultants en masqué", "delay": 10 },
+                  { "other": "ils ont même fait des montages sur twitter ", "delay": 10 },
+                  { "other": "j’en dors plus la nuit, je pense qu’à ça", "delay": 10 },
+                  { "me": "arrête de regarder les réseaux et supprime tes comptes", "delay": 10 },
+                  { "other": "non surtout pas, mon père m’a dit qu’il ne fallait pas effacer les preuves si je dois porter plainte", "delay": 10 },
+                  { "other": "le problème c’est que je sursaute à chaque notification", "delay": 10 },
+                  { "me": "enlève les notifications alors", "delay": 10 },
+                  { "other": "même sans ça, je dors pas, je mange pas, je pleure tout le temps", "delay": 10 },
+                  { "other": "j’ai honte, je culpabilise tellement", "delay": 10 },
+                  { "me": "mais ce n’est pas ta faute", "delay": 10 },
+                  { "other": "tu sais très bien que si, personne ne peut m’aider", "delay": 10 },
 
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+
+                  {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
+
+
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
+
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "me": "Tu crois pas que ça finira par s’en aller ?", "delay": 10 },
+                  { "other": "on nous rabâche tout le temps que rien ne s’efface sur internet", "delay": 10 },
+                  { "other": "tu te rappelles ta photo avec tes parents à la plage quand t’avais 10 ans, qu’on a retrouvé l’autre fois alors que ta mère était sûre de l’avoir perdue ?", "delay": 10 },
+                  { "me": "Ah euh oui", "delay": 10 },
+                  { "other": "imagine si on retrouve cette chose dans 5ans", "delay": 10 },
+                  { "other": "je sursaute à chaque notification, à chaque appel, j’ai tout le temps la boule au ventre", "delay": 10 },
+                  { "other": "papa veut pas que je coupe les réseaux pour garder les preuves si je porte plainte", "delay": 10 },
+                  { "other": "c’est tellement affreux d’avoir ça quelque part, et de ne rien pouvoir faire", "delay": 10 },
+
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+
+                  {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
+
+
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
+
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              }
+            ]
+          }
                 ]
               }
             ]
@@ -332,7 +799,6 @@
                   { "me": " Calme toi, on en parle tout à l’heure en cours", "delay": 10 },
                   { "me": "D’accord?", "delay": 10 },
 
-
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 10 },
                   { "other": "Pour quoi faire?", "delay": 10 },
                   { "other": "je ne veux voir personne", "delay": 10 },
@@ -343,9 +809,246 @@
                   { "other": "je ne reviendrai pas", "delay": 10 },
                   { "me": "Mais t’as pas donné de nouvelles ce we et t’es pas venue aujourd’hui", "delay": 10 },
                   { "other": "Et alors qu’est ce que ça change?", "delay": 10 },
-                  { "other": " Je suis devenue la risée de l’école", "delay": 10 },
+                  { "other": "Je suis devenue la risée de l’école", "delay": 10 },
                   { "other": "Tu as bien vu les photos de moi qui circulent sur les réseaux, j’ai beau les signaler, elles me poursuivront toujours", "delay": 10 },
-                  { "other": "ça s’effacera jamais", "delay": 10 }
+                  { "other": "ça s’effacera jamais", "delay": 10 },
+
+                   {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "Mais non au bout d’un moment ils vont bien se lasser", "delay": 10 },
+                  { "other": "tu parles, tout le monde parle de moi sur facebook", "delay": 10 },
+                  { "other": "je reçois des appels insultants en masqué", "delay": 10 },
+                  { "other": "ils ont même fait des montages sur twitter ", "delay": 10 },
+                  { "other": "j’en dors plus la nuit, je pense qu’à ça", "delay": 10 },
+                  { "me": "arrête de regarder les réseaux et supprime tes comptes", "delay": 10 },
+                  { "other": "non surtout pas, mon père m’a dit qu’il ne fallait pas effacer les preuves si je dois porter plainte", "delay": 10 },
+                  { "other": "le problème c’est que je sursaute à chaque notification", "delay": 10 },
+                  { "me": "enlève les notifications alors", "delay": 10 },
+                  { "other": "même sans ça, je dors pas, je mange pas, je pleure tout le temps", "delay": 10 },
+                  { "other": "j’ai honte, je culpabilise tellement", "delay": 10 },
+                  { "me": "mais ce n’est pas ta faute", "delay": 10 },
+                  { "other": "tu sais très bien que si, personne ne peut m’aider", "delay": 10 },
+
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+
+                  {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
+
+
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
+
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "me": "Tu crois pas que ça finira par s’en aller ?", "delay": 10 },
+                  { "other": "on nous rabâche tout le temps que rien ne s’efface sur internet", "delay": 10 },
+                  { "other": "tu te rappelles ta photo avec tes parents à la plage quand t’avais 10 ans, qu’on a retrouvé l’autre fois alors que ta mère était sûre de l’avoir perdue ?", "delay": 10 },
+                  { "me": "Ah euh oui", "delay": 10 },
+                  { "other": "imagine si on retrouve cette chose dans 5ans", "delay": 10 },
+                  { "other": "je sursaute à chaque notification, à chaque appel, j’ai tout le temps la boule au ventre", "delay": 10 },
+                  { "other": "papa veut pas que je coupe les réseaux pour garder les preuves si je porte plainte", "delay": 10 },
+                  { "other": "c’est tellement affreux d’avoir ça quelque part, et de ne rien pouvoir faire", "delay": 10 },
+
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+                  {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
+
+
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
+
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              }
+            ]
+          }
+
 
                 ]
               },
@@ -406,7 +1109,6 @@
                   { "me": " Calme toi, on en parle tout à l’heure en cours", "delay": 10 },
                   { "me": "D’accord?", "delay": 10 },
 
-
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 10 },
                   { "other": "Pour quoi faire?", "delay": 10 },
                   { "other": "je ne veux voir personne", "delay": 10 },
@@ -417,17 +1119,268 @@
                   { "other": "je ne reviendrai pas", "delay": 10 },
                   { "me": "Mais t’as pas donné de nouvelles ce we et t’es pas venue aujourd’hui", "delay": 10 },
                   { "other": "Et alors qu’est ce que ça change?", "delay": 10 },
-                  { "other": " Je suis devenue la risée de l’école", "delay": 10 },
+                  { "other": "Je suis devenue la risée de l’école", "delay": 10 },
                   { "other": "Tu as bien vu les photos de moi qui circulent sur les réseaux, j’ai beau les signaler, elles me poursuivront toujours", "delay": 10 },
-                  { "other": "ça s’effacera jamais", "delay": 10 }
+                  { "other": "ça s’effacera jamais", "delay": 10 },
+
+                   {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "Mais non au bout d’un moment ils vont bien se lasser", "delay": 10 },
+                  { "other": "tu parles, tout le monde parle de moi sur facebook", "delay": 10 },
+                  { "other": "je reçois des appels insultants en masqué", "delay": 10 },
+                  { "other": "ils ont même fait des montages sur twitter ", "delay": 10 },
+                  { "other": "j’en dors plus la nuit, je pense qu’à ça", "delay": 10 },
+                  { "me": "arrête de regarder les réseaux et supprime tes comptes", "delay": 10 },
+                  { "other": "non surtout pas, mon père m’a dit qu’il ne fallait pas effacer les preuves si je dois porter plainte", "delay": 10 },
+                  { "other": "le problème c’est que je sursaute à chaque notification", "delay": 10 },
+                  { "me": "enlève les notifications alors", "delay": 10 },
+                  { "other": "même sans ça, je dors pas, je mange pas, je pleure tout le temps", "delay": 10 },
+                  { "other": "j’ai honte, je culpabilise tellement", "delay": 10 },
+                  { "me": "mais ce n’est pas ta faute", "delay": 10 },
+                  { "other": "tu sais très bien que si, personne ne peut m’aider", "delay": 10 },
+
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+
+                  {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
 
 
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
 
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+                  { "me": "Tu crois pas que ça finira par s’en aller ?", "delay": 10 },
+                  { "other": "on nous rabâche tout le temps que rien ne s’efface sur internet", "delay": 10 },
+                  { "other": "tu te rappelles ta photo avec tes parents à la plage quand t’avais 10 ans, qu’on a retrouvé l’autre fois alors que ta mère était sûre de l’avoir perdue ?", "delay": 10 },
+                  { "me": "Ah euh oui", "delay": 10 },
+                  { "other": "imagine si on retrouve cette chose dans 5ans", "delay": 10 },
+                  { "other": "je sursaute à chaque notification, à chaque appel, j’ai tout le temps la boule au ventre", "delay": 10 },
+                  { "other": "papa veut pas que je coupe les réseaux pour garder les preuves si je porte plainte", "delay": 10 },
+                  { "other": "c’est tellement affreux d’avoir ça quelque part, et de ne rien pouvoir faire", "delay": 10 },
+
+                  { "other": "de toute façon c’est à cause de moi ce qui m’arrive", "delay": 10 },
+                  { "me": "NON c’est à cause de Ryan ce qui t’arrive!!", "delay": 10 },
+                  { "me": "c’est un psychopathe!", "delay": 10 },
+                  { "me": "tu sais même pas si tout ce qu’il t’a dit est vrai, s’il a bien 18 ans etc.", "delay": 10 },
+                  { "me": "si ça se trouve c’est un vieux pervers de 65 ans planqué dans sa chambre avec son PC", "delay": 10 },
+                  { "other": "je sais je me rends compte maintenant", "delay": 10 },
+                  { "other": "j’aurais jamais dû lui faire confiance", "delay": 10 },
+                  { "me": "Vous devriez en parler à la gendarmerie avec ton père", "delay": 10 },
+                  { "other": "je sais il veut y aller", "delay": 10 },
+                  { "other": "je sais pas en même temps moi je veux juste oublier cette histoire", "delay": 10 },
+                  { "other": "tu comprends je me sens responsable, qu’est ce que tu veux qu’ils prennent ma plainte?", "delay": 10 },
+                  { "other": "ils vont rien pouvoir faire contre ce Ryan et tous les autres à l’école", "delay": 10 },
+                  { "me": "tu te trompes, ils sont là pour t’aider", "delay": 10 },
+                  { "me": "ils ont tous les moyens pour arrêter cet enfer, des spécialistes et du matos pour rechercher les vrais coupables", "delay": 10 },
+                  { "me": "tu vas pas le laisser impuni, il pourrait le faire à quelqu’un d’autre", "delay": 10 },
+                  { "other": "je sais bien, mais j’ai honte de leur dire ce qu’il s’est passé", "delay": 10 },
+                  { "other": "ils vont me juger comme à l’école", "delay": 10 },
+                  { "other": "et pire mon père saura vraiment tout cette fois-ci", "delay": 10 },
+                  { "other": "je pourrai plus le regarder en face", "delay": 10 },
+                  { "other": "dans cette histoire, j’aurais vraiment tout perdu", "delay": 10 },
+                  { "me": "non tes vrais amis te soutiennent et ton père est avec toi", "delay": 10 },
+                  { "other": "mais à part vous 2 il ne me reste personne", "delay": 10 },
+                  { "other": "mon père me propose de partir quelques temps", "delay": 10 },
+                  { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 10 },
+                  { "me": "Mais tu veux dire définitivement?", "delay": 10 },
+                  { "other": "le temps qu’il faudra", "delay": 10 },
+
+                  {"me": [{
+                "text": "Mais… Tu réalises ?",
+                "dialogue": [
+                  { "me": "J’ai pensé à ce que tu m’as dit", "delay": 10 },
+                  { "me": "J’ai cherché sur internet et j’ai trouvé quelque chose qui a l’air pas mal", "delay": 10 },
+                  { "me": "Il faut que tu appelles le 08 842 846 37", "delay": 10 },
+                  { "me": "08 Victimes. C’est pour toutes les victimes d’infractions et ils te redirigent après", "delay": 10 },
+                  { "other": "C’est-à-dire ?", "delay": 10 },
+                  { "me": "En gros suivant ce que t’as ils te fournissent un service juridique, psychologique, de quoi t’héberger...", "delay": 10 },
+                  { "me": "enfin de ce que j’ai compris", "delay": 10 },
+                  { "other": "je sais pas…", "delay": 10 },
+                  { "me": "Allez c’est même pas surtaxé et ils peuvent vraiment t’aider !", "delay": 10 },
+                  { "me": "et tu peux faire ça quand tu veux dans la journée", "delay": 10 },
+                  { "other": "non vraiment je le sens pas", "delay": 10 },
+                  { "me": "Noémie tu peux pas rester comme ça", "delay": 10 },
+                  { "me": "Il faut que tu te fasses aider ou au moins écouter", "delay": 10 },
+                  { "me": "Je ne peux pas faire grand chose…", "delay": 10 },
+                  { "other": "mais c’est déjà beaucoup", "delay": 10 },
+                  { "other": "que tu m’écoutes et essayes de m’aider", "delay": 10 },
+                  { "me": "Mais il faut t’informer aussi", "delay": 10 },
+                  { "me": "Fais-le pour toi", "delay": 10 },
+                  { "other": "et papa ?", "delay": 10 },
+                  { "me": "Il va falloir le mettre au courant à un moment donné", "delay": 10 },
+                  { "other": "qu’est-ce qu’il va dire…", "delay": 10 },
+                  { "me": "Il va vouloir t’aider aussi", "delay": 10 },
+                  { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 10 },
+                  { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 10 },
+                  { "other": "hm…", "delay": 10 },
+                  { "other": "je vais voir promis", "delay": 10 },
+
+
+                  { "other": "T’es là?", "delay": 10 },
+                  { "me": "Ca fait plaisir d’avoir de tes nouvelles", "delay": 10 },
+                  { "other": "Je t’ai écouté, je les ai contactés", "delay": 10 },
+                  { "me": "Le 08?", "delay": 10 },
+                  { "other": "Oui, ils m’ont donné plein de conseils", "delay": 10 },
+                  { "me": "C'était utile alors?", "delay": 10 },
+                  { "me": "Qu’est ce qu’ils t’ont dit?", "delay": 10 },
+                  { "other": "C’était assez long", "delay": 10 },
+                  { "other": "Mais pour faire court ils m'encouragent à porter plainte auprès de la gendarmerie", "delay": 10 },
+                  { "other": "ils m’ont confirmée que c’était la meilleure solution", "delay": 10 },
+                  { "me": "Alors, tu vas le faire?", "delay": 10 },
+                  { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 10 },
+                  { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 10 },
+                  { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 10 },
+
+
+                  { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 10 },
+                  { "other": "encore un truc sur moi?", "delay": 10 },
+                  { "me": "Non pour Théo et Vincent!", "delay": 10 },
+                  { "other": "Non quoi?", "delay": 10 },
+                  { "me": "Ils ont été convoqués à la gendarmerie ", "delay": 10 },
+                  { "other": "je pensais pas que ça se ferait aussi vite", "delay": 10 },
+                  { "me": "tu savais qu’ils allaient être convoqués?", "delay": 10 },
+                  { "other": "Oui, les gendarmes me l’ont dit au moment où j’ai déposé plainte", "delay": 10 },
+                  { "me": "Mais qu’est ce qu’ils t’ont dis?", "delay": 10 },
+                  { "me": "Comment ça s’est passé?", "delay": 10 },
+                  { "other": "Quand j’y suis allée avec mon père, j’avais super honte d’en parler ", "delay": 10 },
+                  { "other": "j’avais la gorge sèche, les jambes me tenaient plus et les gendarmes ont été super sympas", "delay": 10 },
+                  { "other": "C’est une femme gendarme qui est venue me parler et la conversation était juste entre nous deux, du coup j’étais plus à l’aise", "delay": 10 },
+                  { "me": "Ils ont trouvé Ryan du coup?", "delay": 10 }
+                ]
+              },
+
+              {
+                "text": "Je ne t’accuse pas",
+                "dialogue": [
+
+                  { "": "", "delay": 10 }
+                ]
+              }
+            ]
+          }
+                ]
+              }
+            ]
+          }
 
                 ]
               }
             ]
           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -443,3 +1396,4 @@
     }
   ]
 }
+

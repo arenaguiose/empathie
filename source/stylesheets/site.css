@@ -8,51 +8,6 @@
 body {
 	background: #838687;
 }
-.messageDebut {
-	position: fixed;
-	width: 100vw;
-	max-width: 500px;
-	height: 100vh;
-	max-height: 850px;
-	background: black;
-	padding-top: 0px;
-	top: 50%; left: 50%; 
-	transform: translate(-50%, -50%);
-	box-shadow: 0 3px #D0D0D0;
-	z-index: 2;	
-	overflow-x: hidden;
-    overflow-y: scroll;
-    text-align: center;
-
-}
-
-.messageDebut img {
-	max-width: 100%;
-	z-index: 3;
-}
-
-.btnBegin {
-  -webkit-border-radius: 13;
-  -moz-border-radius: 13;
-  border-radius: 13px;
-  border-width: 0px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  background: #1acca9;
-  padding: 20px 25px 20px 25px;
-  text-decoration: none;
-  text-align: center;
-  width:50%;
-  margin: auto;
-  user-select: none;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background: #787878;
-  text-decoration: none;
-}
 
 .messageFin {
 	display: none; 
@@ -89,7 +44,49 @@ body {
 
 }
 
+.messageDebut {
+	position: fixed;
+	width: 100vw;
+	max-width: 500px;
+	height: 100vh;
+	max-height: 850px;
+	background: black;
+	padding-top: 0px;
+	top: 50%; left: 50%; 
+	transform: translate(-50%, -50%);
+	box-shadow: 0 3px #D0D0D0;
+	z-index: 2;	
+	overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
 
+.messageDebut img {
+	max-width: 100%;
+	z-index: 3;
+}
+
+.btnBegin {
+  border-radius: 13px;
+  border-width: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #1acca9;
+  padding: 20px 25px 20px 25px;
+  text-decoration: none;
+  text-align: center;
+  width:50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #787878;
+  text-decoration: none;
+}
 
 /* zone message*/
 .chatlogs{
@@ -117,8 +114,7 @@ body {
 	background: rgba(0,0,0,.1);
 }
 
-<<<<<<< HEAD
-=======
+
 .chat{
 	display: flex;
 	flex-flow: row nowrap;
@@ -128,7 +124,6 @@ body {
 
 }
 
->>>>>>> parent of c231c68... csssss
 
 
 .chat .user-photo .one .two{
@@ -157,39 +152,16 @@ body {
 	margin-top: 8px;
 }
 
-<<<<<<< HEAD
-.message{
-    font-size: 1.2em;
-    width: auto;
-    max-width:300px;
-    border-radius: 15px;
-    padding: 10px;
-    margin-bottom: 10px;
-=======
-.chat .chat-message{
+.chat .chat-message {
 	width: 70%;
 	padding: 15px;
 	margin: 10px 10px 0;
 	border-radius: 10px;
 	color: #fff;
 	font-size: 18px;
-
->>>>>>> parent of c231c68... csssss
-}
-.message-in {
-    background-color: #E5E5EA;
-    margin-left: 20px;
-
-<<<<<<< HEAD
-}
-.message-out{
-    background-color : #22D351;
-    margin-right: 20px;
-    color: #FFFFFF;
 }
 
 
-=======
 .friend .chat-message{
 
 	background-color: #e5e5ea;
@@ -200,7 +172,7 @@ body {
 	background-color: #1acca9;
 	order: -1;
 }
->>>>>>> parent of c231c68... csssss
+
 
 .chat .self{
 	align-items: flex-end;
