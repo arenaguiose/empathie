@@ -180,9 +180,9 @@
                   { "transition": "Un déménagement ?"},
 
                   {"me": [{
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
-
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               },
 
@@ -364,10 +364,10 @@
               },
 
               {
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "": "", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               }
             ]
@@ -559,10 +559,10 @@
               },
 
               {
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "": "", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               }
             ]
@@ -678,10 +678,10 @@
               },
 
               {
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "": "", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               }
             ]
@@ -929,10 +929,10 @@
               },
 
               {
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "": "", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               }
             ]
@@ -1047,10 +1047,10 @@
               },
 
               {
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "": "", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               }
             ]
@@ -1251,10 +1251,10 @@
               },
 
               {
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "": "", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               }
             ]
@@ -1369,10 +1369,10 @@
               },
 
               {
-                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
+                "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "": "", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
                 ]
               }
             ]
