@@ -180,7 +180,7 @@
                   { "transition": "Un déménagement ?"},
 
                   {"me": [{
-                "text": "Noémie doit déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                 ]
@@ -364,7 +364,7 @@
               },
 
               {
-                "text": "Noémie doit déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                   { "": "", "delay": 10 }
@@ -399,19 +399,19 @@
                 "text": "Je ne t’accuse pas",
                 "dialogue": [
                   { "me": "Je ne t’accuse pas", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "il sait tellement de choses… sur mes passions, mon lycée et sur mon père aussi", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "ma mère aussi, un peu. même avec papa j’en parle pas, qu’il soit là ou pas", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "il sait tellement de choses… sur mes passions, mon lycée et sur mon père aussi", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "ma mère aussi, un peu. même avec papa j’en parle pas, qu’il soit là ou pas", "delay": 3000, "ellipsis": 1500 },
                   { "other": "j’ai été tellement bête.", "delay": 2500, "ellipsis": 1500 },
-                  { "other": "Ce n’est pas de ta faute tu ne pouvais pas savoir", "delay": 2400, "ellipsis": 1500 },
+                  { "me": "Ce n’est pas de ta faute tu ne pouvais pas savoir", "delay": 2400, "ellipsis": 1500 },
                   { "other": "mais j’aurais dû m’en douter, c’était tellement évident !", "delay": 2900, "ellipsis": 1700 },
                   { "other": " il s’intéressait à moi, me disait que j’étais mieux que les autres", "delay": 4000 },
-                  { "me": "qu’il me comprenait et m’aimait pour qui j’étais", "delay": 3000, "ellipsis": 1500 },
-                  { "other": "il voulait tellement me voir alors… mais pourquoi pourqoui porquoi j’ai fait ça", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "qu’il me comprenait et m’aimait pour qui j’étais", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "il voulait tellement me voir alors… mais pourquoi pourquoi pourquoi j’ai fait ça", "delay": 3000, "ellipsis": 1500 },
                   { "me": "Ne t’en fais pas je vais t’aider", "delay": 3000, "ellipsis": 1500 },
                   { "me": "qu’est-ce qu’il s’est passé ensuite ?", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "changé ?", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "enfin peut-être qu’il faisait semblant avant, je ne sais pas je n’en sais rien !", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "mais ça a empiré", "delay": 3000, "ellipsis": 1500 },
+
+                  { "other": "enfin peut-être qu’il faisait semblant avant, je ne sais pas je n’en sais rien !", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "mais ça a empiré", "delay": 3000, "ellipsis": 1500 },
                   { "me": "Attends je te suis plus, qu’est-ce qu’il a fait au juste ?", "delay": 3000, "ellipsis": 1500 },
 
 
@@ -559,7 +559,7 @@
               },
 
               {
-                "text": "Noémie doit déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                   { "": "", "delay": 10 }
@@ -678,7 +678,7 @@
               },
 
               {
-                "text": "Noémie doir déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                   { "": "", "delay": 10 }
@@ -929,7 +929,7 @@
               },
 
               {
-                "text": "Noémie doit déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                   { "": "", "delay": 10 }
@@ -1047,7 +1047,7 @@
               },
 
               {
-                "text": "Noémie doit déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                   { "": "", "delay": 10 }
@@ -1089,19 +1089,19 @@
                 "text": "Je ne t’accuse pas",
                 "dialogue": [
                   { "me": "Je ne t’accuse pas", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "il sait tellement de choses… sur mes passions, mon lycée et sur mon père aussi", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "ma mère aussi, un peu. même avec papa j’en parle pas, qu’il soit là ou pas", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "il sait tellement de choses… sur mes passions, mon lycée et sur mon père aussi", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "ma mère aussi, un peu. même avec papa j’en parle pas, qu’il soit là ou pas", "delay": 3000, "ellipsis": 1500 },
                   { "other": "j’ai été tellement bête.", "delay": 2500, "ellipsis": 1500 },
-                  { "other": "Ce n’est pas de ta faute tu ne pouvais pas savoir", "delay": 2400, "ellipsis": 1500 },
+                  { "me": "Ce n’est pas de ta faute tu ne pouvais pas savoir", "delay": 2400, "ellipsis": 1500 },
                   { "other": "mais j’aurais dû m’en douter, c’était tellement évident !", "delay": 2900, "ellipsis": 1700 },
                   { "other": " il s’intéressait à moi, me disait que j’étais mieux que les autres", "delay": 4000 },
-                  { "me": "qu’il me comprenait et m’aimait pour qui j’étais", "delay": 3000, "ellipsis": 1500 },
-                  { "other": "il voulait tellement me voir alors… mais pourquoi pourqoui porquoi j’ai fait ça", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "qu’il me comprenait et m’aimait pour qui j’étais", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "il voulait tellement me voir alors… mais pourquoi pourquoi pourquoi j’ai fait ça", "delay": 3000, "ellipsis": 1500 },
                   { "me": "Ne t’en fais pas je vais t’aider", "delay": 3000, "ellipsis": 1500 },
                   { "me": "qu’est-ce qu’il s’est passé ensuite ?", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "changé ?", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "enfin peut-être qu’il faisait semblant avant, je ne sais pas je n’en sais rien !", "delay": 3000, "ellipsis": 1500 },
-                  { "me": "mais ça a empiré", "delay": 3000, "ellipsis": 1500 },
+
+                  { "other": "enfin peut-être qu’il faisait semblant avant, je ne sais pas je n’en sais rien !", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "mais ça a empiré", "delay": 3000, "ellipsis": 1500 },
                   { "me": "Attends je te suis plus, qu’est-ce qu’il a fait au juste ?", "delay": 3000, "ellipsis": 1500 },
 
 
@@ -1251,7 +1251,7 @@
               },
 
               {
-                "text": "Noémie doit déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                   { "": "", "delay": 10 }
@@ -1369,7 +1369,7 @@
               },
 
               {
-                "text": "Noémie doit déménager",
+                "text": "Noémie doit déménager <br><br>Fin du chapitre, à suivre...",
                 "dialogue": [
 
                   { "": "", "delay": 10 }
