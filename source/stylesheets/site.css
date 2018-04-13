@@ -62,6 +62,7 @@ body {
     color: white;
 }
 
+
 .transition {
 	position: fixed;
 	width: 100vw;
@@ -79,6 +80,11 @@ body {
     text-align: center;
     color: white;
     display: none; 
+}
+
+.transition p {
+	margin: auto;
+	text-align: center;
 }
 
 .messageDebut img {
@@ -107,7 +113,7 @@ body {
 .btnBegin {
   border-radius: 13px;
   border-width: 0px;
-  font-family: Arial;
+  font-family: stylethief, Arial;
   color: #ffffff;
   font-size: 20px;
   background: #1acca9;
