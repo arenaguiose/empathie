@@ -86,6 +86,7 @@ function otherTalks(){
    else { 
     $('.chatlogs').append('<div class="chat friend"><div class="user-photo"><img src="' + data.characters.other.photo + '" class="one"></div><p class="chat-message">' + currentMessage.other + '</p></div>');  
   planNextMessage();
+  
 }
 }
 

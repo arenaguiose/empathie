@@ -244,9 +244,9 @@ body {
 
 .option{
 	padding: 18px;
-	background-color: #A9A9A9;
+	background-color: #EFEFEF;
 	text-align: center;
-	color: #FFFFFF;
+	color: #303030;
 	flex-grow: 1;
 	flex-shrink: 1;
 	width: 100%;
