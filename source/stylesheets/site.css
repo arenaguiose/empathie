@@ -62,15 +62,42 @@ body {
     color: white;
 }
 
+.transition {
+	position: fixed;
+	width: 100vw;
+	max-width: 500px;
+	height: 100vh;
+	max-height: 850px;
+	background: black;
+	padding-top: 0px;
+	top: 50%; left: 50%; 
+	transform: translate(-50%, -50%);
+	box-shadow: 0 3px #D0D0D0;
+	z-index: 2;	
+	overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    color: white;
+    display: none; 
+}
+
 .messageDebut img {
 	max-width: 100%;
 	z-index: 3;
-	margin-right: 5px;
-	margin-left: 5px;
+	margin: 10% 0 7.5% 0;
+}
+
+.partenariat {
+	padding: 11% 0 5% 0;
+}
+
+.partenariat p {
+	margin-bottom: 3%;
 }
 
 .logos img {
 	max-width: 17%;
+	margin: 5px;
 }
 
 #ntech {
@@ -147,20 +174,23 @@ body {
 
 .one{
 	width: 100%;
-	width: 60px;
-	height: 60px;
+	width: 35px;
+	height: 35px;
 	background-color: #ccc;
 	border-radius: 50%;
-	margin-top: 8px;
+	margin-top: 25px;
+	margin-left:-40px;
 }
 
 .two{
 	width: 100%;
-	width: 60px;
-	height: 60px;
+	width: 35px;
+	height: 35px;
 	background-color: #ccc;
 	border-radius: 50%;
-	margin-top: 8px;
+	margin-top: 8%;
+	margin-left: 45px;
+	margin-right:-35px;
 }
 
 .chat .chat-message {
@@ -175,6 +205,10 @@ body {
 	max-width: 95%;
 }
 
+.friend {
+	margin-right: 27%;
+}
+
 .friend .chat-message{
 
 	background-color: #e5e5ea;
@@ -182,7 +216,12 @@ body {
 		border-radius: 25px 25px 25px 8px;
 }
 
+.self {
+	margin-left: 24%;
+}
+
 .self .chat-message{
+	margin-right: -30px;
 	background-color: #1acca9;
 	order: -1;
 	border-radius: 25px 25px 8px 25px;
@@ -218,7 +257,7 @@ body {
 }
 
 .option:hover{
-	background-color: black;
+	background-color: #e5e5ea;
 	color: #1acca9;
 }
 
@@ -246,8 +285,9 @@ body {
 	align-items: center;
 }
 #head {
-	min-height: 7.5vh;
-	min-width: 7.5vh; 
+	margin: auto;
+	min-height: 7.0vh;
+	min-width: 7.0vh; 
 }
 
 .iconesHeader img {

@@ -5,6 +5,7 @@ var currentDialogue = null;
 var currentMessage = null;
 var answerChosen = null;
 var delay = 0;
+var zeroDelay = false;
 var dialogueIndex = 0;
 var dialogueEllipsis = 0;
 
@@ -14,7 +15,7 @@ function begin() {
   $('.messageDebut').hide();
   $.getJSON( 'scenarii/noemie.json', function( dataLoaded ) {
     data = dataLoaded;
-    currentDialogue = data.dialogue
+    currentDialogue = data.dialogue;
     setHeader();
     showCurrentMessage();
   });
@@ -29,26 +30,32 @@ function setHeader() {
 function showCurrentMessage() {
   console.log("showCurrentMessage");
   currentMessage = currentDialogue[dialogueIndex];
-  delay = currentMessage.delay;
-  
-/*  if (currentMessage.other) {
-    setTimeout(function() {
-       otherTalks();
-     },delay)
+  if (zeroDelay) {
+    delay = 0;
   } else {
-      iTalk();
-    }
-  autoScroll();
-}*/
+    delay = currentMessage.delay;
+  }
   setTimeout(function() {
   if (currentMessage.other) {
     otherTalks();
-  } else {
+  } else if (currentMessage.me) {
    iTalk();
+  } else {
+   transition();
   }
     autoScroll();
   }, delay);
 }
+
+
+function transition() {
+  $('.transition').show();
+  $('.transition').append('<p>' + currentMessage.transition + '</p>');
+  setTimeout(function() {
+    $('.transition').hide();
+  }, 4000);
+}
+
 
 function autoScroll() {
   $('.chatlogs').scrollTop($('.chatlogs')[0].scrollHeight);
@@ -84,6 +91,8 @@ function otherTalks(){
 function iTalk() {
   console.log("iTalk");
   if (typeof(currentMessage.me) === 'string') {
+    // On attend un click pour lancer iAutoAnswer
+    //$('body').unbind('click').bind('click', iAutoAnswer);
     iAutoAnswer();
   } else {
     iChoose();
@@ -92,6 +101,7 @@ function iTalk() {
 
 function iAutoAnswer() {
   console.log("iAutoAnswer");
+  //$('body').unbind('click');
   $('.chatlogs').append('<div class="chat self"><img src="' + data.characters.me.photo + '" class="two"><div class="user-photo"></div><p class="chat-message">' + currentMessage.me + '</p></div>');
   planNextMessage();
 }
@@ -120,7 +130,7 @@ function iAnswer() {
 }
 
 function end() {
-  // console.log("end");
+  console.log("end");
   $('.messageFin').show();
 }
 
