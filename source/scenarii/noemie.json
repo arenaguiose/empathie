@@ -108,8 +108,8 @@
                   { "other": "<img src='images/screens/screen2.png' class='screen'>", "delay": 5000 },
                   { "other": "je ne sais pas quoi répondre", "delay": 3000, "ellipsis": 1000 },
                   { "other": "j'ai peur", "delay": 1000, "ellipsis": 700 },
-                  { "other": "<img src='images/screens/screen3.png' class='screen'>", "delay": 4000 },
-                  { "me": "merde mais ça craint", "delay": 3000, "ellipsis": 1500 },
+                  { "other": "<img src='images/screens/screen3.png' class='screen'>", "delay": 3000 },
+                  { "me": "merde mais ça craint", "delay": 5000, "ellipsis": 1500 },
                   { "me": "il te fait chanter ", "delay": 3000, "ellipsis": 1500 },
                   { "me": " t’en as parlé à quelqu’un?" },
                   { "other": " non qu’à toi", "delay": 3000, "ellipsis": 1000 },
@@ -118,7 +118,7 @@
                   { "other": "je fais vraiment n’importe quoi", "delay": 3000, "ellipsis": 1000 },
                   { "me": " Calme toi, on en parle tout à l’heure en cours" },
                   { "me": "D’accord?", "delay": 3000, "ellipsis": 1500 },
-                  { "transition": "3 jours plus tard"},
+                  { "transition": "3 jours plus tard", "delay": 3000},
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 3000, "ellipsis": 1500 },
                   { "other": "Pour quoi faire?", "delay": 3200, "ellipsis": 1500 },
                   { "other": "je ne veux voir personne", "delay": 3200, "ellipsis": 1000 },
@@ -177,12 +177,12 @@
                   { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 2000, "ellipsis": 1500 },
                   { "me": "Mais tu veux dire définitivement?", "delay": 3000, "ellipsis": 1500 },
                   { "other": "le temps qu’il faudra", "delay": 3000, "ellipsis": 900 },
-                  { "transition": "Un déménagement ?"},
+                  { "transition": "Un déménagement ?", "delay": 3000},
 
                   {"me": [{
                 "text": "Noémie doit déménager",
                 "dialogue": [
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               },
 
@@ -215,7 +215,7 @@
                   { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 3000, "ellipsis": 1500 },
                   { "other": "hm…", "delay": 3000, "ellipsis": 1500 },
                   { "other": "je vais voir promis", "delay": 3400, "ellipsis": 1500 },
-                  { "transition": "2 jours après"},
+                  { "transition": "2 jours après", "delay": 3000},
 
 
                   { "other": "T’es là?", "delay": 8000, "ellipsis": 1500 },
@@ -232,7 +232,7 @@
                   { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 3000, "ellipsis": 1200 },
                   { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 1000, "ellipsis": 900 },
                   { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 3000, "ellipsis": 1500 },
-                  { "transition": "quelques temps plus tard"},
+                  { "transition": "quelques temps plus tard", "delay": 3000},
 
 
                   { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 3000, "ellipsis": 1500 },
@@ -295,7 +295,7 @@
                   { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 2700, "ellipsis": 1900 },
                   { "me": "Mais tu veux dire définitivement?", "delay": 3000, "ellipsis": 1500 },
                   { "other": "le temps qu’il faudra", "delay": 2800, "ellipsis": 1700 },
-                  { "transition": "Un déménagement ?"},
+                  { "transition": "Un déménagement ?", "delay": 3000},
 
                   {"me": [{
                 "text": "Noémie doit rester",
@@ -367,7 +367,7 @@
                 "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               }
             ]
@@ -421,7 +421,7 @@
                   { "other": "je ne sais pas quoi répondre", "delay": 1000, "ellipsis": 1500 },
                   { "other": "j'ai peur", "delay": 3000, "ellipsis": 1300 },
                   { "other": "<img src='images/screens/screen3.png' class='screen'>", "delay": 5000, "ellipsis": 1500 },
-                  { "me": "merde mais ça craint", "delay": 3000, "ellipsis": 1500 },
+                  { "me": "merde mais ça craint", "delay": 5000, "ellipsis": 1500 },
                   { "me": "il te fait chanter ", "delay": 3000, "ellipsis": 1500 },
                   { "me": " t’en as parlé à quelqu’un?" },
                   { "other": " non qu’à toi", "delay": 2800, "ellipsis": 1500 },
@@ -431,7 +431,7 @@
                   { "me": " Calme toi, on en parle tout à l’heure en cours", "delay": 3000, "ellipsis": 1500 },
                   { "me": "D’accord?", "delay": 3000, "ellipsis": 1500 },
 
-                  { "transition": "3 jours plus tard"},
+                  { "transition": "3 jours plus tard", "delay": 3000},
 
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 3000, "ellipsis": 1500 },
                   { "other": "Pour quoi faire?", "delay": 3000, "ellipsis": 1200 },
@@ -489,7 +489,7 @@
                   { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 2000, "ellipsis": 1500 },
                   { "me": "Mais tu veux dire définitivement?", "delay": 3000, "ellipsis": 1500 },
                   { "other": "le temps qu’il faudra", "delay": 3000, "ellipsis": 900 },
-                  { "transition": "Un déménagement ?"},
+                  { "transition": "Un déménagement ?", "delay": 3000},
 
 
                   {"me": [{
@@ -521,7 +521,7 @@
                   { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 3000, "ellipsis": 1500 },
                   { "other": "hm…", "delay": 3000, "ellipsis": 1500 },
                   { "other": "je vais voir promis", "delay": 3400, "ellipsis": 1500 },
-                  { "transition": "2 jours après"},
+                  { "transition": "2 jours après", "delay": 3000},
 
 
                   { "other": "T’es là?", "delay": 8000, "ellipsis": 1500 },
@@ -538,7 +538,7 @@
                   { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 3000, "ellipsis": 1200 },
                   { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 1000, "ellipsis": 900 },
                   { "me": "Il faut le faire, tiens moi au courant quand vous y allez" },
-                  { "transition": "quelques temps plus tard"},
+                  { "transition": "quelques temps plus tard", "delay": 3000},
 
 
                   { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 3000, "ellipsis": 1500 },
@@ -562,7 +562,7 @@
                 "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               }
             ]
@@ -609,7 +609,7 @@
                   { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 2700, "ellipsis": 1900 },
                   { "me": "Mais tu veux dire définitivement?", "delay": 3000, "ellipsis": 1500 },
                   { "other": "le temps qu’il faudra", "delay": 2800, "ellipsis": 1700 },
-                  { "transition": "Un déménagement ?"},
+                  { "transition": "Un déménagement ?", "delay": 3000},
 
                   {"me": [{
                 "text": "Noémie doit rester",
@@ -640,7 +640,7 @@
                   { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 3000, "ellipsis": 1500 },
                   { "other": "hm…", "delay": 3000, "ellipsis": 1500 },
                   { "other": "je vais voir promis", "delay": 3400, "ellipsis": 1500 },
-                  { "transition": "2 jours après"},
+                  { "transition": "2 jours après", "delay": 3000},
 
 
                   { "other": "T’es là?", "delay": 8000, "ellipsis": 1500 },
@@ -657,7 +657,7 @@
                   { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 3000, "ellipsis": 1200 },
                   { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 1000, "ellipsis": 900 },
                   { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 3000, "ellipsis": 1500 },
-                  { "transition": "quelques temps plus tard"},
+                  { "transition": "quelques temps plus tard", "delay": 3000},
 
 
                   { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 3000, "ellipsis": 1500 },
@@ -681,7 +681,7 @@
                 "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               }
             ]
@@ -791,7 +791,7 @@
                   { "other": "je ne sais pas quoi répondre", "delay": 3000, "ellipsis": 1000 },
                   { "other": "j'ai peur", "delay": 1000, "ellipsis": 700 },
                   { "other": "<img src='images/screens/screen3.png' class='screen'>", "delay": 4000 },
-                  { "me": "merde mais ça craint", "delay": 3000, "ellipsis": 1500 },
+                  { "me": "merde mais ça craint", "delay": 5000, "ellipsis": 1500 },
                   { "me": "il te fait chanter ", "delay": 3000, "ellipsis": 1500 },
                   { "me": " t’en as parlé à quelqu’un?", "delay": 3000, "ellipsis": 1500 },
                   { "other": " non qu’à toi", "delay": 3000, "ellipsis": 1000 },
@@ -801,7 +801,7 @@
                   { "me": " Calme toi, on en parle tout à l’heure en cours", "delay": 3000, "ellipsis": 1500 },
                   { "me": "D’accord?", "delay": 3000, "ellipsis": 1500 },
 
-                  { "transition": "3 jours plus tard"},
+                  { "transition": "3 jours plus tard", "delay": 3000},
 
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 3000, "ellipsis": 1500 },
                   { "other": "Pour quoi faire?", "delay": 3200, "ellipsis": 1500 },
@@ -860,7 +860,7 @@
                   { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 2000, "ellipsis": 1500 },
                   { "me": "Mais tu veux dire définitivement?", "delay": 3000, "ellipsis": 1500 },
                   { "other": "le temps qu’il faudra", "delay": 3000, "ellipsis": 900 },
-                  { "transition": "Un déménagement ?"},
+                  { "transition": "Un déménagement ?", "delay": 3000},
 
                   {"me": [{
                 "text": "Noémie doit rester",
@@ -891,7 +891,7 @@
                   { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 3000, "ellipsis": 1500 },
                   { "other": "hm…", "delay": 3000, "ellipsis": 1500 },
                   { "other": "je vais voir promis", "delay": 3400, "ellipsis": 1500 },
-                  { "transition": "2 jours après"},
+                  { "transition": "2 jours après", "delay": 3000},
 
 
                   { "other": "T’es là?", "delay": 8000, "ellipsis": 1500 },
@@ -908,7 +908,7 @@
                   { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 3000, "ellipsis": 1200 },
                   { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 1000, "ellipsis": 900 },
                   { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 3000, "ellipsis": 1500 },
-                  { "transition": "quelques temps plus tard"},
+                  { "transition": "quelques temps plus tard", "delay": 3000},
 
 
                   { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 3000, "ellipsis": 1500 },
@@ -932,7 +932,7 @@
                 "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               }
             ]
@@ -1009,7 +1009,7 @@
                   { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 3000, "ellipsis": 1500 },
                   { "other": "hm…", "delay": 3000, "ellipsis": 1500 },
                   { "other": "je vais voir promis", "delay": 3400, "ellipsis": 1500 },
-                  { "transition": "2 jours après"},
+                  { "transition": "2 jours après", "delay": 3000},
 
 
                   { "other": "T’es là?", "delay": 8000, "ellipsis": 1500 },
@@ -1026,7 +1026,7 @@
                   { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 3000, "ellipsis": 1200 },
                   { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 1000, "ellipsis": 900 },
                   { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 3000, "ellipsis": 1500 },
-                  { "transition": "quelques temps plus tard"},
+                  { "transition": "quelques temps plus tard", "delay": 3000},
 
 
                   { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 3000, "ellipsis": 1500 },
@@ -1050,7 +1050,7 @@
                 "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               }
             ]
@@ -1111,7 +1111,7 @@
                   { "other": "je ne sais pas quoi répondre", "delay": 1000, "ellipsis": 1500 },
                   { "other": "j'ai peur", "delay": 3000, "ellipsis": 1300 },
                   { "other": "<img src='images/screens/screen3.png' class='screen'>", "delay": 5000, "ellipsis": 1500 },
-                  { "me": "merde mais ça craint", "delay": 3000, "ellipsis": 1500 },
+                  { "me": "merde mais ça craint", "delay": 5000, "ellipsis": 1500 },
                   { "me": "il te fait chanter ", "delay": 3000, "ellipsis": 1500 },
                   { "me": " t’en as parlé à quelqu’un?", "delay": 3000, "ellipsis": 1500 },
                   { "other": " non qu’à toi", "delay": 2800, "ellipsis": 1500 },
@@ -1121,7 +1121,7 @@
                   { "me": " Calme toi, on en parle tout à l’heure en cours", "delay": 3000, "ellipsis": 1500 },
                   { "me": "D’accord?", "delay": 3000, "ellipsis": 1500 },
 
-                  { "transition": "3 jours plus tard"},
+                  { "transition": "3 jours plus tard", "delay": 3000},
 
 
                   { "me": "Répond au moins à un de mes messages!!!", "delay": 3000, "ellipsis": 1500 },
@@ -1181,7 +1181,7 @@
                   { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 2000, "ellipsis": 1500 },
                   { "me": "Mais tu veux dire définitivement?", "delay": 3000, "ellipsis": 1500 },
                   { "other": "le temps qu’il faudra", "delay": 3000, "ellipsis": 900 },
-                  { "transition": "Un déménagement ?"},
+                  { "transition": "Un déménagement ?", "delay": 3000},
 
 
                   {"me": [{
@@ -1213,7 +1213,7 @@
                   { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 3000, "ellipsis": 1500 },
                   { "other": "hm…", "delay": 3000, "ellipsis": 1500 },
                   { "other": "je vais voir promis", "delay": 3400, "ellipsis": 1500 },
-                  { "transition": "2 jours après"},
+                  { "transition": "2 jours après", "delay": 3000},
 
 
                   { "other": "T’es là?", "delay": 8000, "ellipsis": 1500 },
@@ -1230,7 +1230,7 @@
                   { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 3000, "ellipsis": 1200 },
                   { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 1000, "ellipsis": 900 },
                   { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 3000, "ellipsis": 1500 },
-                  { "transition": "quelques temps plus tard"},
+                  { "transition": "quelques temps plus tard", "delay": 3000},
 
 
                   { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 3000, "ellipsis": 1500 },
@@ -1254,7 +1254,7 @@
                 "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               }
             ]
@@ -1300,7 +1300,7 @@
                   { "other": " il a la possibilité d’une mutation avec son boulot", "delay": 3000, "ellipsis": 1600 },
                   { "me": "Mais tu veux dire définitivement?", "delay": 3000, "ellipsis": 1500 },
                   { "other": "le temps qu’il faudra", "delay": 3000, "ellipsis": 1400 },
-                  { "transition": "Un déménagement ?"},
+                  { "transition": "Un déménagement ?", "delay": 3000},
 
                   {"me": [{
                 "text": "Noémie doit rester",
@@ -1330,8 +1330,8 @@
                   { "me": "C’est ça qu’il faut que tu comprennes, on est là pour t’aider", "delay": 3000, "ellipsis": 1500 },
                   { "me": "Ne te mets pas de freins à cause d’une raclure pareille", "delay": 3000, "ellipsis": 1500 },
                   { "other": "hm…", "delay": 3000, "ellipsis": 1500 },
-                  { "other": "je vais voir promis", "delay": 3400, "ellipsis": 1500 },
-                  { "transition": "2 jours après"},
+                  { "other": "je vais voir promis", "delay": 3000, "ellipsis": 1500 },
+                  { "transition": "2 jours après", "delay": 3000},
 
 
                   { "other": "T’es là?", "delay": 8000, "ellipsis": 1500 },
@@ -1348,7 +1348,7 @@
                   { "other": "on en a parlé avec mon père et il ne me laisse pas le choix", "delay": 3000, "ellipsis": 1200 },
                   { "other": "mais je crois qu’il a raison, on doit y aller", "delay": 1000, "ellipsis": 900 },
                   { "me": "Il faut le faire, tiens moi au courant quand vous y allez", "delay": 3000, "ellipsis": 1500 },
-                  { "transition": "quelques temps plus tard"},
+                  { "transition": "quelques temps plus tard", "delay": 3000},
 
 
                   { "me": "Tu es au courant de ce qu’il s’est passé au lycée aujourd'hui?", "delay": 3000, "ellipsis": 1500 },
@@ -1372,7 +1372,7 @@
                 "text": "Noémie doit déménager",
                 "dialogue": [
 
-                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 10 }
+                  { "transition": "Fin du chapitre<br><br>À suivre...", "delay": 3000 }
                 ]
               }
             ]
