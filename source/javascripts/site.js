@@ -54,6 +54,7 @@ function transition() {
   setTimeout(function() {
     $('.transition').hide();
   }, 4000);
+  planNextMessage();
 }
 
 
