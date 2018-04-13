@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: tahoma, sans serif;
+	font-family: Helvetica, tahoma, sans serif;
 	box-sizing: border-box;
 }
 
@@ -113,7 +113,7 @@ body {
 .btnBegin {
   border-radius: 13px;
   border-width: 0px;
-  font-family: stylethief, Arial;
+  font-family: Helvetica, Arial;
   color: #ffffff;
   font-size: 20px;
   background: #1acca9;
